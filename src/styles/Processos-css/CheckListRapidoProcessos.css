@@ -1,0 +1,135 @@
+
+.div-check-list-rapida{
+    display: grid;
+    justify-content: center;
+}
+
+.table-check-list{
+    border-collapse: collapse;
+}
+
+.table-conteudo{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.div-table-check-list-rapida{
+    width: 50em;
+}
+
+.p-identificacao-paciente-check-list{
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.test-list{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 0.5em;
+}
+
+.input-nome-paciente-check-list{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 50em;
+}
+
+.cns-telefone-check-list{
+    display: flex;
+    margin-top: 0.5em;
+    padding-left: 20px;
+}
+
+.cns-input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 22em;
+}
+
+.nome-crm-telefone-email-check-list{
+    display: flex;
+    margin-top: 0.5em;
+    padding-left: 20px;
+}
+
+.input-nome-endocrinologista{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 40em;
+}
+
+.crm-endocrinologista{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 15em;
+}
+
+.telefone-endocrino{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 10em;
+}
+
+.tempo-uso-check-list{
+    margin-left: 0.5em;
+    width: 5em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.outros{
+    padding-left: 20px;
+}
+
+.input{
+    cursor: pointer;
+}
+
+.input-sim-nao-check-list{
+    margin-left: 1em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.crm-check-list{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.div-crm-data-check-list{
+    display: flex;
+}
+
+.crm-input-check-list{
+    padding-left: 100px;
+}
+
+.input-crm-escrita{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.p-assinatura-check-list{
+    width: 20em;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+.p-assinatura-check-list2{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.final-check-list{
+    display: grid;
+    justify-content: center;
+}

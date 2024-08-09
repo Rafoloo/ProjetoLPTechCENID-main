@@ -1,0 +1,421 @@
+.div-nome-formulario-nutricao {
+    display: flex;
+    justify-content: center;
+}
+
+.p-nome-paciente-cadastro-nutricao {
+    font-family: lexend deca;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.input-nome-paciente-nutricao {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    width: 70%;
+    margin-top: 1em;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+.idade-paciente-nutricao {
+    display: flex;
+    justify-content: center;
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.p-idade-calculada {
+    border-bottom: 1px solid gray;
+    width: 5%;
+    margin-left: 0.5em;
+}
+
+.formulario-razao-de-cho-nutricao {
+    font-family: lexend deca;
+    border-collapse: collapse;
+}
+
+.form-nutri-formulario {
+    margin-top: 1em;
+    background-color: #D8E3E8;
+}
+
+.h2-percep-qualid-vida-razao-cho {
+    font-family: lexend deca;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-metodo-contagem-carboidrato{
+    font-family: lexend deca;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.input-text-aplicativo {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    margin-left: 0.5em;
+    width: 34%;
+}
+
+.p-estimativa-texto {
+    font-family: lexend deca;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.analise-frequencia {
+    font-family: lexend deca;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.tipos-alimento-nunca-mensal-semanal-diario {
+    display: flex;
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.tipos-alimento {
+    border: 1px solid gray;
+    width: 39.9%;
+    display: flex;
+    justify-content: center;    
+}
+
+.nunca {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.mensal {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.semanal {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.diario {
+    border: 1px solid gray;
+    width: 15%;   
+    display: flex;
+    justify-content: center;  
+}
+
+.pao-massas {
+    display: flex;
+    font-family: lexend deca;
+}
+
+.p-pao-e-massas {
+    font-weight: 600;
+    border: 1px solid gray;
+    width: 39.8%;
+    border-right: 2px solid gray;
+    background-color: #D8E3E8;
+}
+
+.input-pao-massas-nunca {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-pao-massas-nunca:focus{
+    outline: 1px solid gray;
+}
+
+.input-dia-nunca {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-text-pao-massa {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.input-text-pao-massa[type="number"] {
+    display: flex;
+    text-align: center;
+}
+
+.input-text-pao-massa-semanal {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.input-text-pao-massa-semanal[type="number"] {
+    display: flex;
+    text-align: center;
+}
+
+.input-pao-massas-diario {
+    border: 1px solid gray;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.tipos-alimento-nunca-mensal-semanal-diario {
+    background-color: #D8E3E8;
+}
+
+.input-nao-realiza[type="checkbox"] {
+    margin-left: 1.5em;
+    cursor: pointer;
+}
+
+/********** TESTE *******/
+
+.sensibilidade-tabela {
+    border-collapse: collapse;
+}
+
+.estimativa {
+    border-collapse: collapse;
+}
+
+.razao-cho {
+    border-collapse: collapse;
+}
+
+.tr-teste-razao-cho {
+    width: 30vw;
+    height: 2vw;
+}
+
+.th-razao-cho {
+    font-size: 20px;
+    background-color: #D8E3E8;
+    width: 50vw;
+}
+
+.tr-teste-razao-cho1 {
+    width: 3vw;
+}
+
+.tr-teste-razao-cho2 {
+    width: 67vw;
+}
+
+.sensibilidade-tabela {
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.td-idade-NED {
+    width: 50vw;
+    font-weight: 600;
+    background-color: #D8E3E8;
+}
+
+.td-idade-NED1 {
+    width: 50vw;
+    font-weight: 600;
+    height: 1.5vw;
+}
+
+.anexar-exame-recordatorio {
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px dashed gray;
+    width: 30vw;
+    height: 2vw;
+    cursor: pointer;
+    font-family: lexend deca;
+    font-size: 20px;
+    margin-left: 20vw;
+}
+
+.icon-up {
+    margin-left: 0.5em;
+    font-size: 30px;
+}
+
+.p-recordatorio-alimentar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.p-recordatorio-alimentar1 {
+    display: flex;
+    justify-content: center;
+    font-family: lexend deca;
+    font-weight: 600;
+    background-color: #D8E3E8;
+    margin-top: 1em;
+}
+
+.ingerido-recomendado {
+    height: 2vw;
+}
+
+.ingerido-recomendado2 {
+    width: 11vw;
+    height: 2vw;
+    text-align: center;
+}
+
+.macronutrientes {
+    width: 25vw;
+    background-color: #D8E3E8;
+}
+
+.tabela-recordatorio-alimentar {
+    font-family: lexend deca;
+    border-collapse: collapse   ;
+}
+
+.recordatorio-alimentar-DISPLAY {
+    display: flex;
+    background-color: #D8E3E8;
+    padding: 0px 1px 0px 348px;
+}
+
+.p-recordatorio-alimentar1-ingerido {
+    font-family: lexend deca;
+    font-weight: 600;
+    background-color: #D8E3E8;
+    border: 1px solid rgb(218, 215, 215);
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px 40px 5px 41px;
+}
+
+.p-recordatorio-alimentar1-ingerido1 {
+    font-family: lexend deca;
+    font-weight: 600;
+    background-color: #D8E3E8;
+    border: 1px solid rgb(218, 215, 215);
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px 70px 5px 72px;
+}
+
+.tabela-ingestao {
+    border-collapse: collapse;
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.total-ingestao {
+    width: 62.3vw;
+    background-color: #D8E3E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado-total-ingestao {
+    width: 7.4vw;
+}
+
+.hipotese-nutricional {
+    margin-top: 1em;
+}
+
+.hipotese-diagnostica {
+    font-family: lexend deca;
+    font-weight: 600;
+    width: 69.8vw;
+    display: flex;
+    justify-content: center;
+    background-color: #D8E3E8;
+    outline: none;
+}
+
+.hipotese-diagnostica1       {
+    font-family: lexend deca;
+    font-weight: 600;
+    width: 69.8vw;
+    height: 10vw;
+    outline: none;
+    border: none;
+}
+
+.css-botao-relatorio-consulta1 {
+    padding: 1em 5em;
+    background-color: #0E426E;
+    color: white;
+    font-weight: 300;
+    border-radius: 100px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.css-botao-relatorio-consulta1:hover{
+    color: #D8E3E8;
+}
+
+.botao-salvar-form-nutri {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.p-avaliacao-clinica-dietica {
+    font-family: lexend deca;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 1.5em;
+    background-color: #D8E3E8;
+    font-size: 20px;
+}
+
+.p-avaliazao-clinica {
+    text-align: center;
+    background-color: #D8E3E8;
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-top: 1.5em;
+    font-size: 20px;
+}

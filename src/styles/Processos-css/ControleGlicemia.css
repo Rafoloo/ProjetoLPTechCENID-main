@@ -1,0 +1,55 @@
+.div-1-basal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-image {
+    align-self: flex-start;
+  }
+  
+.right-image {
+    align-self: flex-end;
+}
+
+.cafe-manha-controle-glicemia{
+    text-align: center;
+    width: 4.5em;
+}
+
+.table-controle-glicemia{
+    border-collapse: collapse;
+}
+
+.input-controle-glicemia{
+    width: 5.2em;
+    height: 3em;
+    border: none;
+    outline: none;
+}
+
+.input-controle-glicemia1{
+    width: 8.6em;
+    height: 3em;
+    border: none;
+    outline: none;
+}
+
+.div-table-controle-glicemia{
+    display: flex;
+    justify-content: center;
+}
+
+.central{
+    text-align: center;
+    font-weight: 600;
+}
+
+.input-controle-glicemia:focus{
+    outline: 1px solid gray;
+    background-color:#e9f0f3;
+}
+
+.input-controle-glicemia1:focus{
+    outline: 1px solid gray;
+    background-color:#e9f0f3;
+}

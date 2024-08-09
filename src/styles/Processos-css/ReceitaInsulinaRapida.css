@@ -1,0 +1,233 @@
+.div-relatorio-manutencao-insulina{
+    display: flex;
+    justify-content: center;
+}
+
+.div-table-relatorio-insulina{
+    width: 50em;
+}
+
+.table-relatorio{
+   border-collapse: collapse;
+}
+
+.text-relatorio-insulina{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 150px 15px 150px;
+}
+
+.endereco-relatorio-insulina{
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+}
+
+.input-nome-paciente-relatorio-manutencao1{
+    width: 2em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+}
+
+.input-nome-paciente-relatorio-manutencao-crm{
+    width: 4em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    display: flex;
+    justify-content: s;
+}
+
+.div-relatorio-medico1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0.5em;
+    border-bottom: 1px solid gray;
+    width: 7em;
+}
+
+.div-relatorio-medico-subcutaneo{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.nome-relatorio-medico1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    font-size: 15px;
+}
+
+.nome-relatorio-medico{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nome-relatorio-medico-crm{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.input-nome-paciente-relatorio-manutencao1{
+    width: 32.7em;
+}
+
+.input-nome-paciente-relatorio-manutencao{
+    width: 31.5em;
+}
+
+.input-nome-paciente-relatorio-manutencao-crm{
+    width:10em;
+}
+
+.div-paciente-dm1-relatorio-medico{
+    font-size: 20px;
+}
+
+.tempo-diagnostico-dm1-relatorio-medico{
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.input-tempo-diagnostico{
+    border: none;
+    outline: none;
+    width: 5em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.input-tempo-diagnostico-analogo{
+    border: none;
+    outline: none;
+    width: 15em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.td-relatorio-medico{
+    padding: 10px 100px 10px 100px;
+}
+
+.tipo-insulina-relatorio-medico{
+    border: none;
+    outline: none;
+    width: 22em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.div-texto-relatorio-insulina{
+    text-align: start;
+}
+
+.inpur-insulina-relatorio-medico{
+    border: none;
+    outline: none;
+    width: 22em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.div-relatorio-medico-texto{
+    margin-top: 1em;
+}
+
+.input-receita-medica-insulina{
+    border: none;
+    outline: none;
+    width: 22em;
+    border-bottom: 1px solid gray;
+}
+
+.p-necessidade-receber-medicamento{
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.input-n-frascos-ml-nome-tipo{
+    width: 18em;
+    text-align: center;
+    outline: none;
+    border: none;
+    height: 2em;
+}
+
+.date-relatorio-manutencao{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.date-date{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.crm-relatorio-manutencao{
+    border: none;
+    outline: none;
+    width: 10em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.line-relatorio{
+    width: 15em;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2em;
+}
+
+.central-assinatura{
+    display: grid;
+    justify-content: center;
+}
+
+.teste-assinatura{
+    text-align: center;
+    margin-bottom: 3.5em;
+    margin-top: 0.5em;
+}
+
+.text-area-insulina-rapida{
+    width: 44em;
+    height: 8em;
+    outline: none;
+}
+
+.input-2-2{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 4em;
+    text-align: center;
+}
+
+.p-necessita-receber{
+    margin-top: 1em;
+}
+
+.tamanho-table{
+    width: 15em;
+}
+
+.central-insulina-rapida{
+    text-align: center;
+}
+
+.p-3-agulhas{
+    padding: 15px 105px 15px 105px;
+}

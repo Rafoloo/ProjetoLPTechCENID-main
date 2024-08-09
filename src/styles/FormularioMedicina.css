@@ -1,0 +1,602 @@
+.infor-pessoal-paciente-med {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.p-nome-paciente-infos-med {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-right: 0.2em;
+}
+
+.nome-saida {
+    width: 53.2vw;
+    font-family: lexend deca;
+    height: 1vw;
+    outline: none;
+}
+
+.p-idade-paciente-infos-med {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+}
+
+.idade-saida {
+    width: 2vw;
+    font-family: lexend deca;
+    height: 1vw;
+    outline: none;
+}
+
+.p-peso-paciente-infos-med {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+}
+
+.peso-saida {
+    width: 3vw;
+    font-family: lexend deca;
+    height: 1vw;
+    outline: none;
+}
+
+.p-estatura-paciente-infos-med {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+}
+
+.estatura-saida {
+    width: 3vw;
+    font-family: lexend deca;
+    height: 1vw;
+    outline: none;
+}
+
+.diagnostico-saida {
+    cursor: pointer;
+    margin-left: 1em;
+    margin-right: 0.3em;
+}
+
+.diagnostico-saida-input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 1vw;
+}
+
+.p-estatura-paciente-infos-med-DM2-22 {
+    font-weight: 600;
+}
+
+.p-estatura-paciente-infos-med-DM1 {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+}
+
+.p-estatura-paciente-infos-med-DM2 {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+}
+
+.p-estatura-paciente-infos-med-DMG {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+}
+
+.p-estatura-paciente-infos-med-SEM-DIAG {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+}
+
+.p-estatura-paciente-infos-med-OUTRAS-FORMS {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+}
+
+.p-estatura-paciente-infos-med-date-med {
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.date-diagnostico-saida-input {
+    outline: none;
+    height: 1vw;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.p-estatura-paciente-infos-med-date-tempo-med {
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.date-tempo-diagnostico-saida-input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 1vw;
+    margin-left: 0.2em;
+    width: 5vw;
+}
+
+.classificacao-diagnostico {
+    background-color: #D8E3E8;
+    font-family: lexend deca;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.classificacao-diagnostico2 {
+    margin-top: 1em;
+    background-color: #D8E3E8;
+    border: 1px solid gray;
+}
+
+.p-medoto-monitoramento-glicosimetro {
+    font-family: lexend deca;
+    /* font-weight: 600; */
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+}
+
+.metodo-monitoramento-glicemia1 {
+    margin-left: 1em;
+}
+
+.p-medoto-monitoramento-glicosimetro-marca-modelo {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+.p-estado-controle-glicemico2 {
+    font-family: lexend deca;
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+    font-size: 15px;
+}
+
+.p-estado-controle-glicemico {
+    font-family: lexend deca;
+    font-weight: 600;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+}
+
+.input-estado-controle-glicemico {
+    cursor: pointer;
+}
+
+.preenchimento-med {
+    background-color: #D8E3E8;
+    display: flex;
+    justify-content: center;
+    font-family: lexend deca;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.preenchimento-med-1 {
+    margin-top: 1.5em;
+}
+
+.outras-morbidades {
+    display: flex;
+    justify-content: center;
+}
+
+.th-doenca {
+    width: 20vw;
+    font-family: lexend deca;
+    background-color: #D8E3E8;
+    font-size: 16px;
+}
+
+.Input-doenca {
+    width: 20.2vw;
+    height: 1.2vw;
+    outline: none;
+    font-family: lexend deca;
+    border: none;
+}
+
+.Input-doenca:focus {
+    outline: 1px solid gray;
+}
+
+.p-outras-morbidades {
+    font-family: lexend deca;
+    font-weight: 600;
+    display: flex;
+    padding-left: 4.5vw;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+.textarea-sintomas {
+    display: flex;
+    justify-content: center;
+}
+
+.text-area-sintomas {
+    width: 61vw;
+    height: 10vw;
+    outline: none;
+    font-family: lexend deca;
+}
+
+.dropdown-med-tabela {
+    display: flex;
+    margin-left: 4.5vw;
+    margin-top: 0.5em;
+}
+
+.display-estagio-pubere {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 61vw;
+}
+
+.estagio-maturacional {
+    display: flex;
+    justify-content: center;
+}
+
+.input-estagio-maturacional {
+    height: 1vw;
+    cursor: pointer;
+    width: 1vw;
+}
+
+.p-estagio-maturacional {
+    font-family: lexend deca;
+    font-size: 16px;
+    margin-left: 0.2em;
+    margin-right: 1em;
+}
+
+.centralizar-imagens {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.table-estado-glicemico {
+    font-family: lexend deca;
+}
+
+.div-estado-glicemico {
+    display: flex;
+    justify-content: center;
+}
+
+.vazio {
+    width: 25vw;
+    background-color: #D8E3E8;
+}
+
+.th-date {
+    width: 5.8vw;
+    background-color: #D8E3E8;
+}
+
+.ficha-registo {
+    background-color: #D8E3E8;
+    font-weight: 600;
+}
+
+.classificacao-form-med {
+    background-color: #e4ecf0;
+    font-weight: 600;
+}
+
+.hba1c-css {
+    font-weight: 600;
+}
+
+.input-estado-glicemico {
+    outline: none;
+    border: none;
+    height: 1.2vw;
+    font-family: lexend deca;
+    width: 5.8vw;
+}
+
+.input-estado-glicemico:focus {
+    outline: 1px solid gray;
+}
+
+.table-administracao-insulina {
+    font-family: lexend deca;
+}
+
+.tipo-admin-insulina {
+    width: 10vw;
+    background-color: #D8E3E8;
+}
+
+.name-admin-insulina {
+    width: 10vw;
+    background-color: #D8E3E8;
+}
+
+.dose-admin-insulina {
+    width: 15vw;
+    background-color: #D8E3E8;
+}
+
+.dose-admin-insulina2 {
+    width: 15vw;
+}
+
+.porcentagem-admin-insulina {
+    width: 10vw;
+    background-color: #D8E3E8;
+}
+
+.porcentagem-admin-insulina1 {
+    width: 10vw;
+}
+
+.total-admin-insulina {
+    width: 20.2vw;
+    background-color: #D8E3E8;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.basal-bolus {
+    background-color: #D8E3E8;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.input-dosediaria-u-dia {
+    width: 15vw;
+    height: 1.2vw;
+    border: none;
+    outline: none;
+    font-family: lexend deca;
+}
+
+.input-dosediaria-u-dia:focus {
+    outline: 1px solid gray;
+}
+
+.table-fator-sensibilidade-para-bolus {
+    font-family: lexend deca;
+
+}
+
+.th-FS {
+    width: 30.3vw;
+    background-color: #D8E3E8;
+}
+
+.prescricao-medica {
+    display: flex;
+    justify-content: center;
+    font-family: lexend deca;
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+}
+
+.p-resultado-nome-prescricao-medica {
+    width: 43vw;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    margin-right: 0.5em;
+}
+
+.p-resultado-idade-prescricao-medica {
+    width: 3vw;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    margin-right: 0.5em;
+}
+
+.input-date-prescricao-medica {
+    outline: none;
+    cursor: pointer;
+}
+
+.p-nome-prescricao-medica {
+    font-weight: 600;
+    margin-right: 0.5em;
+}
+
+.tdteste {
+    display: flex;
+}
+
+.tipo-terapeutica-insulina {
+    width: 7vw;
+    background-color: #D8E3E8;
+    font-size: 18px;
+}
+
+.prescricao-terapeutica-insulina {
+    width: 13.8vw;
+    background-color: #D8E3E8;
+}
+
+.recomendacoes-terapeutica-insulina {
+    width: 8vw;
+    background-color: #D8E3E8;
+    text-align: center;
+}
+
+.recomendacoes-terapeutica-insulina2 {
+    background-color: #D8E3E8;
+}
+
+.u-dia-kg {
+    text-align: center;
+}
+
+.table-basal-bolus-insulina {
+    text-align: center;
+    font-weight: 600;
+    height: 1.5vw;
+}
+
+.total-terapeutica-insulina {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    height: 1.5vw;
+    background-color: #D8E3E8;
+}
+
+.fator-sensibilidade-fs {
+    width: 20vw;
+    background-color: #D8E3E8;
+}
+
+.valor-estimado {
+    width: 41vw;
+    background-color: #D8E3E8;
+}
+
+.centralizar-fs-inicial-final {
+    text-align: center;
+    background-color: #D8E3E8;
+}
+
+.centralizar-fs-inicial-final2 {
+    text-align: center;
+}
+
+.time-inicial-final {
+    /* width: 20.4vw; */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    font-family: lexend deca;
+}
+
+.time-inicial-final:focus {
+    outline: 1px solid gray;
+}
+
+.text-inserir-manualmente {
+    width: 20vw;
+    height: 1.3vw;
+    border: none;
+    outline: none;
+    font-family: lexend deca;
+    font-size: 16px;
+}
+
+.text-inserir-manualmente:focus {
+    outline: 1px solid gray;
+}
+
+.conduta-clinica {
+    width: 61.1vw;
+    font-size: 18px;
+    background-color: #D8E3E8;
+}
+
+.conduta-clinica2 {
+    background-color: #e4ecf0;
+    text-align: center;
+}
+
+.textares-conduta-clinica {
+    width: 61.1vw;
+    height: 8vw;
+    font-family: lexend deca;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.textares-conduta-clinica:focus {
+    outline: 1px solid gray;
+}
+
+.input-fs-bolus {
+    width: 30.5vw;
+    border: none;
+    outline: none;
+    height: 1.2vw;
+    text-align: center;
+}
+
+.input-fs-bolus:focus {
+    outline: 1px solid gray;
+}
+
+.input-time-fs-bolus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.td-input-time {
+    text-align: center;
+}
+
+.nome-completo-responsavel-avaliacao {
+    width: 7vw;
+    background-color: #e4ecf0;
+}
+
+.p-teste {
+    display: flex;
+}
+
+.table-responsavel-avaliacao {
+    width: 61.1vw;
+    background-color: #D8E3E8;
+    font-size: 18px;
+}
+
+.table-fator-sensibilidade-para-bolus-2 {
+    font-family: lexend deca;
+    border-collapse: collapse;
+}
+
+.width-nome {
+    width: 38vw;
+}
+
+.collapse{
+    /* width: 86em; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.p-collapse{
+    width: 100%;
+    height: 1.5em;
+    background-color: #D8E3E8;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 2em;
+}

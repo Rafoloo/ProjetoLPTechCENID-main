@@ -1,0 +1,79 @@
+.agendar-consulta{
+    display: grid;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.form-agendar-consulta{
+    align-items: center;    
+    padding: 90px;
+}
+
+
+.p-nome-agendar-consulta{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 0.5em;
+}
+
+.input-nome-agendar-consulta{
+    width: 50em;
+    outline: none;
+    height: 1.5em;
+}
+
+.p-email-agendar-consulta{
+    width: 50em;
+    outline: none;
+    height: 1.5em;
+}
+
+.input-cpf-agendar-consulta{
+    width: 20em;
+    outline: none;
+    height: 1.5em;
+}
+
+.centralizar-agendar-consulta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-agendar-consulta{
+    width: 20em;
+    height: 1.5em;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+}
+
+.horario-agendar-consulta{
+    width: 15em;
+    height: 1.1em;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+}
+
+.textarea-agendar-consulta{
+    width: 50em;
+    height: 10em;
+    outline: none;
+}
+
+.modal-print{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-print{
+    width: 4em;
+    height: 3.5em;
+    color: white;
+}
+
+.icon-print:hover{
+    color: #d6d6d6;
+}

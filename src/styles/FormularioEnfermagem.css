@@ -1,0 +1,362 @@
+* {
+    font-family: lexend deca;
+}
+
+.infor-pessoal-paciente-enf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.p-nome-paciente-infos-enf {
+    margin-right: 0.5em;
+    font-weight: 600;
+}
+
+.nome-saida-enf {
+    width: 45vw;
+    background-color: white;
+    height: 1.3vw;
+    border-bottom: 1px solid gray;
+}
+
+.p-idade-paciente-infos-enf {
+    font-weight: 600;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.idade-saida-enf {
+    width: 3vw;
+    background-color: white;
+    height: 1.3vw;
+    border-bottom: 1px solid gray;
+}
+
+.p-idade-paciente-infos-enf {
+    font-weight: 600;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.idade-saida-enf {
+    width: 3vw;
+    background-color: white;
+    height: 1.3vw;
+    border-bottom: 1px solid gray;
+}
+
+.div-faixa-azul {
+    background-color: #D8E3E8;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.acompanhante-enfermagem {
+    display: flex;
+    justify-content: center;
+}
+
+.input-acompanhante-enfermagem {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+.input-acompanhante-enfermagem:focus {
+    outline: 1px solid gray;
+}
+
+.input-glicemia-enfermagem {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+.input-glicemia-enfermagem:focus {
+    outline: 1px solid gray;
+}
+
+.acompanhante-enfermagem {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.form-enf {
+    margin-top: 1em;
+}
+
+.table-glicemia {
+    font-family: lexend deca;
+}
+
+.date-glicemia {
+    width: 27em;
+    background-color: #D8E3E8;
+}
+
+.input-data-hora-glicemia {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 2em;
+}
+
+.input-data-hora-glicemia:focus {
+    outline: 1px solid gray;
+}
+
+.input-data-hora-glicemia-date {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 2em;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-data-hora-glicemia-time {
+    width: 100%;
+    border: none;
+    outline: none;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-data-hora-glicemia-date:focus {
+    outline: 1px solid gray;
+}
+
+.input-data-hora-glicemia-time:focus {
+    outline: 1px solid gray;
+}
+
+.registro-glicemia {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-registro-glicemia {
+    margin-top: 2em;
+    display: grid;
+    justify-content: center;
+}
+
+.input-radio-medicamento-nao-sim {
+    width: 50em;
+    font-size: 18px;
+}
+
+.input-medicamento {
+    width: 10em;
+    height: 1.5em;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    cursor: pointer;
+}
+
+.div-medicamento {
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.label-uso-medicamento {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nome-descricao-finalidade {
+    background-color: #D8E3E8;
+}
+
+.input-nome-dose-finalidade-medicamento {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 1.8em;
+}
+
+.input-nome-dose-finalidade-medicamento:focus{
+    outline: 1px solid gray;
+}
+
+.input-diurese-opcoes{
+    cursor: pointer;
+    height: 1.5em;
+    width: 1.8em;
+    display: grid;
+}
+
+.td-opcoes-diurese{
+    width: 79em;
+}
+
+.diurese{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.label-diurese{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pressao-arterial{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.label-pressao-arterial{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.medida-th{
+    width: 10em;
+    background-color: #D8E3E8;
+}
+
+.valor-th{
+    width: 15em;
+    background-color: #D8E3E8;
+}
+
+.percentil-th{
+    width: 27.6em;
+    background-color: #D8E3E8;
+}
+
+.pas-pad-fc-td{
+    background-color: #D8E3E8;
+    font-weight: 600;
+    text-align: center;
+}
+
+.div-padrao-neuropatico{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.label-padrao-neuropatico{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.descricao-td{
+    width: 79.5em;
+    background-color: #D8E3E8;
+}
+
+.X-td{
+    background-color: #D8E3E8;
+}
+
+.input-checkbox-padrao-neuropatico{
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div-anexar-exame-fundo-olho{
+    display: grid;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid gray;
+    margin-top: 0.5em;
+    padding: 10px;
+    background-color: #D8E3E8;
+}
+
+.input-exame-fundo-olho{
+    cursor: pointer;
+}
+
+.label-lipodistrofia{
+    font-size: 18px;
+}
+
+.alteracao-pes{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.label-alteracao-pes{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.X-td-pes{
+    background-color: #D8E3E8;
+}
+
+.alteracao-td{
+    width: 14em;
+    background-color: #D8E3E8;
+}
+
+.descricao-td-pes{
+    width: 65.5em;
+    background-color: #D8E3E8;
+}
+
+.innput-alteracao-pes{
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.alteracao-resultados{
+    font-weight: 600;
+    background-color: #D8E3E8;
+}
+
+.div-hipotese-geral{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.table-hipotese-geral{
+    width: 72em;
+    background-color: #D8E3E8;
+    font-size: 18px;
+}
+
+.apresentacao-pes{
+    text-align: center;
+    background-color: #e7eef1;
+}
+
+.textarea-pes{
+    width: 100%;
+    border: none;
+    height: 10em;
+    outline: none;
+}
+
+.textarea-pes:focus{
+    outline: 1px solid gray;
+}

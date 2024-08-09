@@ -1,0 +1,296 @@
+.processo-insulina-lenta-on-line {
+    text-align: center;
+    display: flex;
+    border: 1px solid gray;
+    margin-top: 1em;
+    width: 50em;
+    padding: 0 10px 10px 0;
+}
+
+.img-sp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.label-secretaria-estado {
+    font-size: 22px;
+    font-weight: 600;
+    width: 30em;
+    text-align: start;
+}
+
+.div-label-p {
+    display: grid;
+}
+
+.div {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p-formulario-avaliacao {
+    font-size: 16px;
+    width: 28em;
+    display: grid;
+    text-align: center;
+}
+
+.div-identificação {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.div-identificacao-paciente {
+    border: 1px solid gray;
+    width: 50.7em;
+}
+
+.div-nome-completo-identificacao {
+    margin-top: 0.5em;
+}
+
+.input-name-identificacao {
+    width: 84%;
+    outline: none;
+    height: 1.5em;
+}
+
+.div-form-identificação-paciente {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-sexo-identificacao-paciente {
+    margin-right: 6vh;
+}
+
+.input-sexo-processo-insulina-lenta {
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    margin-top: 0.2em;
+}
+
+.input-date-insulina-lenta {
+    border: none;
+    margin-left: 2em;
+    margin-right: 1em;
+    outline: none;
+    margin-top: 0.2em;
+}
+
+.input-cpf-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 10em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.input-CNS-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 10em;
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-top: 0.2em;
+}
+
+.endereco-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 46em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.numero-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 3em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 1em;
+}
+
+.complemento-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 48em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.bairro-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 20em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.UF-input-insulina-lenta {
+    width: 3em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 1em;
+}
+
+.CEP-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 8em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.DDD-input-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    width: 3em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.numero-telefone-input-insulina-lenta {
+    width: 25em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 1em;
+}
+
+.email-input-insulina-lenta {
+    width: 56em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.input-qual-plano-saude-insulina-lenta {
+    width: 31.7em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.n {
+    margin-left: 1em;
+}
+
+.doenca-principal-insulina-lenta {
+    width: 31.7em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.CID-input-insulina-lenta {
+    width: 8em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 1em;
+}
+
+.quanto-tempo-insulina-lenta {
+    width: 10em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.tempo {
+    padding-left: 25px;
+}
+
+.text-area-outros-diagnostico {
+    width: 60em;
+    outline: none;
+    height: 10em;
+    margin-top: 0.2em;
+}
+
+.TNM-insulina-lenta {
+    width: 10em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.peso-insulina-lenta {
+    width: 5em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+}
+
+.altura-insulina-lenta {
+    width: 5em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.cm {
+    margin-right: 0.5em;
+}
+
+.nome-instituicao-insulina-lenta {
+    width: 43em;
+    outline: none;
+    height: 1.5em;
+    margin-top: 0.5em;
+}
+
+.CNES-insulina-lenta {
+    width: 10em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.nome-medico-insulina-lenta {
+    width: 43em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.input-cpf-medico-insulina-lenta {
+    width: 15em;
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.data-medico-insulina-lenta {
+    outline: none;
+    height: 1.5em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    border: none;
+    margin-bottom: 1em;
+}
+
+

@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.tr-enf{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 1px;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.tituloSair {
+    text-align: center;
+    margin: 45px 0 10px 0;
+}
+
+.desejaSair {
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.btn-modal {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: Lexend Deca;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.modal{
+    z-index: 999;
+}
+
+.modalSair {
+    padding: 1em 3.5em;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #EC1D21;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 37px;
+    border: none;
+    cursor: pointer;
+}
+
+.modalSair:hover {
+    color: #161919;
+}
+
+.modalFicar {
+    padding: 1em 3.5em;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    color: gray;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 2em;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 37px;
+}
+
+.modalFicar:hover {
+    color: #161919;
+}
+
+.modalFicar:hover {
+    color: black;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #ffff;
+    padding: 14px 28px;
+    border-radius: 30px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .modalSair {
+        padding: 0.8em 3em;
+    }
+    .modalFicar {
+        padding: 0.8em 3em;
+    }
+}
+
+/* **********************************************  MODAL CONTINUAR ********************************************************************* */
+
+.botaoSalvarCadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.salvarCadastro {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    padding: 0.8em 6em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.modalContinuar {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #EC1D21;
+    color: white;
+    font-weight: 700;
+    margin: 42px 0 20px 0;
+}
+
+.tituloContinuar {
+    text-align: center;
+    margin: 47px 0;
+}
+
+
+/* **********************************************  MODAL PERFIL ********************************************************************* */
+
+.modalFechar {
+    padding: 1em 3.5em;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #EC1D21;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    margin-left: 4.5em;
+    margin-bottom: 37px;
+}
+
+.visualizarPerfil {
+    font-size: 200px;
+    color: #adadad;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.3em;
+}
+
+.textoPerfil {
+    display: block;
+    font-weight: 700;
+    margin: 35px;
+}
+
+.textPerfil {
+    display: flex;
+}
+
+.modalPerfil, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modalPerfil{
+    z-index: 999;
+}
+
+/* **********************************************  MODAL MED CONSULTA ********************************************************************* */
+
+.modal-content2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #ffff;
+    padding: 30px 28px;
+    border-radius: 30px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.aMoniGlicemia {
+    font-size: 12px;
+}
+
+.monitoramentoGlicemia:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.aDiagDM1 {
+    font-size: 12px;
+}
+
+.diagnosticoDM1 {
+    margin-top: 0.5em;
+}
+
+.diagnosticoDM1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.iconCloseModalMed {
+    color: #0E426E;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 0.5em;
+    margin-left: 6.5em;
+}
+
+.iconCloseModalMed:hover {
+    color: #790406;
+}
+
+/* **********************************************  MODAL PSICO ********************************************************************* */
+
+.Obesidade {
+    font-size: 17px;
+}
+
+.Obesidade:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.percepsaoQualidade1 {
+    font-size: 17px;
+}
+
+.percepsaoQualidade1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.percepsaoQualidade2 {
+    font-size: 17px;
+}
+
+.percepsaoQualidade2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+/* **********************************************  MODAL ED FÍSICA ********************************************************************* */
+
+.controleInsulina {
+    font-size: 17px;
+}
+
+.controleInsulina:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.nivelAtividadeFisica {
+    font-size: 17px;
+}
+
+.nivelAtividadeFisica:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+/* **********************************************  MODAL ICON FILTRO ********************************************************************* */
+
+.iconFiltro {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#birthday {
+    padding: 1em;
+    font-size: 16px;
+    border: 2px solid gray;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.modalFiltrar {
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #EC1D21;
+    color: white;
+    font-weight: 700;
+    margin: 42px 0 20px 0;
+    display: flex;
+    align-items: center;
+    margin: 10em 0 0 4.5em;
+    font-family: Lexend Deca;
+    cursor: pointer;
+}
+
+.modal-content-filter {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #ffff;
+    padding: 100px 28px;
+    border-radius: 30px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.check13 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    /* margin-left: 2em; */
+}
+
+.CheckMed:checked ~ .checkbox {
+    transform: rotate(45deg);
+    width: 20px;
+    margin-left: 1.7em;
+    border-color: #24c78e;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0;
+}
+
+.checkbox {
+    margin-top: 1.3em;
+    display: flex;
+    width: inherit;
+    height: inherit;
+    border: 3px solid #434343;
+    border-radius: 50px;
+    transition: all 0.375s;
+    cursor: pointer;
+}
+
+.todosProcessos {
+    color: black;
+    margin: 1em 0 0 0 ;
+    font-size: 14px;
+}
+
+/* *************** Modal Enfermagem Paciente *************************** */
+
+.linkAgendarConsulaPaciente {
+    font-size: 20px;
+}
+
+.linkAgendarConsulaPaciente:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #0E426E;
+}
+
+.linkNovaConsultaEnfPaciente {
+    font-size: 20px;
+}
+
+.linkNovaConsultaEnfPaciente:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #790406;
+}
+
+.modal-content3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #ffff;
+    padding: 30px 15px;
+    border-radius: 30px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.iconCloseModalEnfPaciente {
+    color: #0E426E;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 0.5em;
+}
+
+.iconCloseModalEnfPaciente:hover {
+    color: #790406;
+}
+
+/* MODAL AGENDAR CONSULTA */
+
+.botaoSalvarConsulta{
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5em;
+}
+
+.salvarConsulta{
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;    
+    margin-bottom: 1em;
+    padding: 0.8em 6em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.salvarConsulta:hover {
+    color: #d6d6d6;
+}
+
+.print-consulta{
+    width: 10em;
+    height: 3.6em;
+    background-color: #0E426E;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* MODAL ANEXAR EXAME */
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+/* NOVOS MODAIS */
+
+.button1{
+    justify-content: center;
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+/* MODAL EXCLUIR ESTAGIARIO */
+
+.p-deseja-excluir{
+    color: black;
+}
+
+.ModalEnfPaginaPaciente1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.ion-close{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-exlucir-admin:hover{
+    color: #790406;
+}
+

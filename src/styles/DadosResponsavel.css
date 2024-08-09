@@ -1,0 +1,56 @@
+.input-nome-dados-responsavel {
+    outline: none;
+    width: 42.4vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-cpf-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 8vw;
+    height: 1vw;
+}
+
+.input-rg-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 8vw;
+    height: 1vw;
+}
+
+.input-parentesco-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 8vw;
+    height: 1vw;
+}
+
+.input-telefone-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 8vw;
+    height: 1vw;
+}
+
+.input-ocupacao-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 16vw;
+    height: 1vw;
+}
+
+.input-dataNasc-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 7vw;
+    height: 1vw;
+    cursor: pointer;
+}
+
+.input-idade-dados-responsavel {
+    outline: none;
+    margin-left: 0.5em;
+    width: 1.8vw;
+    height: 1vw;
+}

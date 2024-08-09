@@ -1,0 +1,41 @@
+.input-nome-editar-cadastro {
+    outline: none;
+    width: 46.6vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-cpf-editar-cadastro {
+    outline: none;
+    width: 7.5vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-rg-editar-cadastro {
+    outline: none;
+    width: 8vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-cartaoSUS-editar-cadastro {
+    outline: none;
+    width: 11.6vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-endereco-editar-cadastro {
+    outline: none;
+    width: 55vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.input-numero-editar-cadastro {
+    outline: none;
+    width: 4vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}

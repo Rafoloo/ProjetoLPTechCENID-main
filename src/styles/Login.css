@@ -1,0 +1,209 @@
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #5ba3df;
+    background-image: url(../assets/Diabetes-bro.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: -3.5% 2%;
+}
+
+.login-right h1 {
+    font-family: Lexend Deca;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #0E426E;
+}
+
+a {
+    font-size: 12px;
+    font-family: Lexend Deca;
+    margin-top: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-loginInputEmail {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 3px;
+    width: 65%;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    color: black;
+    border: 1px solid black;
+}
+
+.login-loginInputEmail svg {
+    margin-left: 10px;
+}
+
+.login-loginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-loginInputPassword {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: transparent;
+    padding: 3px;
+    width: 65%;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border: 1px solid black;
+}
+
+.login-loginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-loginInputPassword svg {
+    margin-left: 10px;
+}
+
+.login-right button {
+    padding: 0.8em 5.2em;
+    background-color: #0E426E;
+    color: white;
+    font-weight: 300;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    font-family: Lexend Deca;
+}
+
+.login-right button:hover {
+    background-color: #171719;
+    color: #eff2f5;
+    cursor: pointer;
+}
+
+.login-right {
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+.login-eye {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.unimar {
+    display: flex;
+    margin-left: 15px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #6E8EA8;
+    overflow: hidden;
+    display: contents;
+}
+
+
+section .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/src/assets/wave.png);
+    background-size: 1000px 100px;
+}
+
+section .wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+section .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+section .wave.wave3 {
+    animation: animate2 15s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15;
+}
+
+section .wave.wave4 {
+    animation: animate2 s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+.wave.wave1 {
+   filter: contrast(91%) brightness(96%);
+}
+
+

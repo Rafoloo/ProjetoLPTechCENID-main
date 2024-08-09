@@ -1,0 +1,19 @@
+.div-relatorio-manutencao-insulina{
+    display: flex;
+    justify-content: center;
+}
+
+.div-table-relatorio-insulina{
+    width: 50em;
+}
+
+.input-receita-medica-insulina2{
+    width: 20em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.p-necessidade-receber-medicamento2{
+    margin-top: 1em;
+}

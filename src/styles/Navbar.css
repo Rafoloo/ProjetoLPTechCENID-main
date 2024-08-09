@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Faixa branca da NavBar */
+
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Cenid */
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.navbar .leftSide img {
+  width: 120px;
+}
+
+/* Logo Unimar */
+
+.logoUnimar {
+  margin-left: 16px;
+}
+
+.nav, .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* icone pessoa */
+
+.saudacoes {
+  display: flex;
+  align-items: center;
+}
+
+.person {
+  font-size: 35px;
+  color: #666668;
+  margin: 0 12px 0 0;
+}
+
+.testee {
+  display: flex;
+}
+
+.nomeEstagiario {
+  margin-left: 5px;
+}
+
+.nav {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.nav input:checked ~ .menu {
+  width: 280px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.menu li .colorNav {
+  text-decoration: none;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.menu li .colorNav:hover {
+  color: #161919;
+
+}
+
+.nav input {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.nav span {
+  position: absolute;
+  left: 30px;
+  width: 30px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #0e426e;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.nav input:checked ~ span {
+  background-color: #0e426e;
+}
+
+.nav span:nth-child(2) {
+  transform: translateY(-8px);
+}
+
+.nav input:checked ~ span:nth-child(2) {
+  transform: translateY(0) rotate(-45deg);
+}
+.nav span:nth-child(3) {
+  transform: translateY(8px);
+}
+
+.nav input:checked ~ span:nth-child(3) {
+  transform: translateY(0) rotate(45deg);
+}
+
+@media only screen and (max-width: 1100px) {
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar .leftSide img {
+    display: none;
+    
+  }
+  
+  .navbar .leftSide {
+    display: none;
+    padding: none;
+  }
+
+  .saudacoes {
+    display: none;
+  }
+
+  .nav input:checked ~ .menu {
+    width: 500vw;
+  }
+}

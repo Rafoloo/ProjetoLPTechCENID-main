@@ -1,0 +1,365 @@
+.novocadastro {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1NovoCadastro {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.h1BuscarPaciente{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3.5em;
+}
+
+.dadosPaciente {
+  font-size: 16px;
+  margin-top: 45px;
+  text-align: center;
+  background-color: #0e426e;
+  color: white;
+}
+.formNovoCadastro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inputCadastro:focus {
+  border: 1.5px solid rgb(15, 15, 15);
+  outline: 0;
+}
+
+.input-tipo-atendimento-novo-cadastro[type="radio"] {
+  cursor: pointer;
+}
+
+.h5-tipo-de-atendimento{
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  font-family: lexend deca;
+}
+
+.input-checkbox-novo-paciente{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+  margin-top: 0.1em;
+}
+
+.h5-sus-novo-cadastro{
+  font-family: lexend deca;
+  margin-left: 0.3em;
+}
+
+.h4-Diagnostico-texto {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 2em;
+  font-family: lexend deca;
+  background-color: #D8E3E8;
+  width: 70vw;
+}
+
+.check-sus-novo-paciente{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -1em;
+}
+
+.check-convenioe-novo-pacient{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 1em;
+}
+
+.check-particular-novo-paciente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 1em;
+}
+
+.check-projeto-pesquisa-novo-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 1em;
+}
+
+
+.input-outras-formas-de-dm {
+  margin-left: 0.5em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.input-semana-gestacao {
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent; 
+  margin-left: 0.5em;
+  padding: 0 1em 0 0;
+  width: 6.5vw;
+  outline: none;
+}
+
+/* @media only screen and (max-width: 1190px) {
+  .detalhesAberto {
+      padding: 0.7em 5em;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .inputCadastro {
+    width: 70%;
+    padding: 1em 0em 1em 0em;
+    border-radius: 30px;
+  }
+  .formNovoCadastro {
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+  }
+
+  .inpDateNovoCadastro[type="date"]{
+    margin-left: -24.5em;
+  }
+
+  .PdataExameNovoCadastro {
+    margin-left: -25em; 
+  }
+} */
+
+
+/******* NOVO ********/
+
+.input-nao-realiza1 {
+  margin-left: 1.7em;
+  cursor: pointer;
+}
+
+.tabela-dms {
+  border-collapse: collapse;
+  font-weight: 600;
+  font-family: lexend deca;
+}
+
+.input-outras-formas-de-dm {
+  width: 30%;
+}
+
+.tr-teste-razao-cho1-GESTACAO {
+  display: flex;
+  width: 19vw;
+}
+
+.tr-teste-razao-cho1-GESTACAO2{
+  display: flex;
+}
+
+.p-sim-gestacao {
+  margin-left: 0.2em;
+}
+
+.input-nao-realiza12 {
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.input-semana-gestacao {
+  text-align: center;
+}
+
+.input-deficiencia {
+  width: 18.8vw;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+}
+
+.th-dms {
+  width: 24vw;
+}
+
+.table-dms-familia {
+  border-collapse: collapse;
+  font-family: lexend deca;
+}
+
+.teste-parentesco {
+  display: flex;
+}
+
+.td-sim-nao-dms {
+  font-weight: 600;
+}
+
+.p-nao-dms {
+  margin-left: 0.5em;
+}
+
+.input-dms {
+  cursor: pointer;
+}
+
+.input-qual-parentesco {
+  width: 8vw;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  margin-left: 0.5em;
+}
+
+.tr-teste-razao-cho3 {
+  width: 70vw;
+}
+
+.input-modelo-bomba {
+  width: 25vw;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  margin-left: 0.5em;
+}
+
+.input-modelo-bomba2 {
+  width: 25vw;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  margin-left: 0.5em;
+}
+
+.input-modelo-data {
+  width:5.5vw;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+/***** NOVO CSS *****/
+
+.form-novo-cadastro {
+  margin-top: 0.5em;
+}
+
+.form-cadastro-novo-paciente {
+  font-family: lexend deca;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.input-nome-novo-paciente {
+  outline: none;
+  width: 55vw;
+  margin-left: 0.5em;
+  height: 1vw;
+}
+
+.input-cpf-novo-paciente {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-cartaoSus-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-rg-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-telefone-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-dataNasc-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 6.9vw;
+  height: 1vw;
+  cursor: pointer;
+}
+
+.input-idade-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-email-novo-cadastro {
+  outline: none;
+  width: 55vw;
+  margin-left: 0.5em;
+  height: 1vw;
+}
+
+.input-ocupacao-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 6.4vw;
+  height: 1vw;
+  cursor: pointer;
+}
+
+.input-endereco-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 32vw;
+  height: 1vw;
+}
+
+.input-municipio-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1vw;
+}
+
+.input-numero-novo-cadastro {
+  outline: none;
+  margin-left: 0.5em;
+  width: 3.7vw;
+  height: 1vw;
+}

@@ -1,0 +1,42 @@
+.processosPage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.tableProcessos, th, td {
+    border: 0.1em solid rgb(212, 209, 209);
+}
+
+.tableProcessos {
+    text-align: center;
+}
+
+.caminhoConsulta {
+    font-size: 16px;
+    font-family: Lexend Deca;
+}
+
+.testeP  {
+    padding: 0.5em 0;
+}
+
+.tableTitle {
+    width: 50em;
+    padding: 1em 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .tableProcessos {
+        width: 80vw;
+    }
+}

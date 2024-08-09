@@ -1,0 +1,114 @@
+
+.h3-avaliacao-psicologica {
+    font-family: lexend deca;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-left: 0.8em; 
+}
+
+.h3-nome-paciente-form-psico {
+    font-family: lexend deca;
+    font-size: 18px;
+    margin-top: 1em;
+    margin-left: 0.8em;
+}
+
+.h2-percep-qualid-vida {
+    font-family: lexend deca;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.h2-percep-qualid-vida2 {
+    font-family: lexend deca;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-nome-paciente-form-psico {
+    border: none;
+    background-color: transparent; 
+    padding: 0 1em 0 0;
+    width: 50%;
+    outline: none;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
+
+.nome-paciente-formulario-psico {
+    justify-content: center;
+    display: flex;
+}
+
+.input-questao1 {
+    width: 99%; 
+    outline: none;
+    border: none;
+    height: 1.2vw;
+    text-align: center;
+}
+
+.input-questao1:focus{
+    outline: 1px solid gray;
+}
+
+.p-texto-escala {
+    font-weight: 400;
+    font-family: lexend deca;
+    font-size: 17px;
+    margin: 5px;
+}
+
+/****** NOVO ****/
+
+.tr-teste-razao-cho {
+    font-family: lexend deca;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dominio-escore-pontu {
+    background-color: #D8E3E8;
+}
+
+.tabela-percp-qualidade-vida {
+    border-collapse: collapse;
+    background-color: #D8E3E8;
+}
+
+.div-tabela-percp {
+    font-family: lexend deca;
+}
+
+.th-questao {
+    width: 64vw;
+}
+
+.th-questao1 {
+    font-weight: 600;
+}
+
+.th-questao1-color {
+    color: #D63000;
+    font-weight: 600;
+}
+
+.th-questao1-color-back {
+    background-color: #f0f358;
+    font-weight: 600;
+}
+
+.th-dms-questao {
+    width: 24vw;
+    background-color: #D8E3E8;
+}
+
+.hipotese-diagnostica1{
+    outline: none;
+}
+
+.hipotese-diagnostica1:focus{
+    outline: 1px solid gray;
+}

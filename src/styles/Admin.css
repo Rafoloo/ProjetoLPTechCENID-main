@@ -1,0 +1,328 @@
+
+.Admin {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.informacoes-admin {
+    display: flex;
+    font-family: lexend deca;
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.p-input-nome-admin {
+    width: 30vw;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+}
+
+.h3-nome-admin {
+    margin-left: 0.5em;
+}
+
+.form-estagiario {
+    border: 1px solid gray;
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.input-nome-estagiario {
+    outline: none;
+    width: 43.1vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+.ra-estagiario {
+    outline: none;
+    margin-left: 0.5em;
+    width: 9.4vw;
+    height: 1vw;
+}
+
+.cpf-estagiario {
+    outline: none;
+    margin-left: 0.5em;
+    width: 9.4vw;
+    height: 1vw;
+}
+
+.label-ra-estagiario {
+    margin-left: 0.2em;
+}
+
+.label-phone {
+    margin-left: 0.2em;
+    display: inline-flex;
+}
+
+.email-estagiario {
+    outline: none;
+    width: 42.7vw;
+    margin-left: 0.4em;
+    height: 1vw;
+}
+
+/* .curso-estagiario {
+    outline: none;
+    width: 20vw;
+    margin-left: 0.3em;
+    height: 1vw;
+    margin-top: 0.5em;
+} */
+
+.senha-estagiario {
+    outline: none;
+    width: 11.5vw;
+    margin-left: 0.3em;
+    height: 1vw;
+}
+
+.confirmar-senha-estagiario {
+    outline: none;
+    width: 11.4vw;
+    margin-left: 0.3em;
+    height: 1vw;
+}
+
+.telefone-estagiario {
+    outline: none;
+    width: 11.4vw;
+    margin-left: 0.3em;
+    height: 1vw;
+}
+
+.botao-salvar-estagiario {
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button-salvar-estagiario {
+    font-family: lexend deca;
+    font-size: 16px;
+    padding: 10px 50px 10px 50px;
+    background-color: #0E426E;
+    color: white;
+    outline: none;
+    border: 1px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.button-salvar-estagiario:hover {
+    background-color: rgb(20, 33, 70);
+}
+
+.tabela-resultado-estagiarios {
+    font-family: lexend deca;
+    background-color: #D8E3E8;
+}
+
+.tabela-estagiarios-cadastrados {
+    display: flex;
+    justify-content: center;
+}
+
+.id-estagiario2 {
+    padding: 5px 15px 5px 15px;
+}
+
+.nome-estagiario2 {
+    padding: 5px 150px 5px 150px;
+}
+
+.cpf-estagiario2 {
+    padding: 5px 60px 5px 60px;
+}
+
+.ra-estagiario2 {
+    padding: 5px 60px 5px 60px;
+}
+
+.senha-estagiario2 {
+    padding: 5px 60px 5px 60px;
+}
+
+.tipo-estagiario2 {
+    padding: 5px 60px 5px 60px;
+}
+
+.curso-estagiario2 {
+    padding: 5px 60px 5px 60px;
+}
+
+.icons-estagiario {
+    padding: 5px 15px 5px 15px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.icon-excluir {
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-lupa {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ajustephone {
+  display: inline-flex;
+}
+
+/* Estilos padrão da tabela */
+.tableAdmin {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-color: black;
+
+    margin: 5px;
+  }
+  
+  .thAdmin, .tdAdmin {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-color: black;
+    text-align: left;
+  }
+
+/* Tornando a tabela responsiva */
+@media screen and (max-width: 768px) {
+    .tabela-resultado-estagiarios {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .tabela-resultado-estagiarios tr {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .tabela-resultado-estagiarios th,
+    .tabela-resultado-estagiarios td {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .tabela-resultado-estagiarios td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .tabela-resultado-estagiarios td:last-child:before {
+      content: none;
+    }
+  }
+  
+  /* Estilo da tabela */
+  .tabela-resultado-estagiarios {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+  .tabela-resultado-estagiarios th,
+  .tabela-resultado-estagiarios td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .tabela-resultado-estagiarios th {
+    background-color: #D8E3E8;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .tabela-resultado-estagiarios td:before {
+    content: '';
+    display: none;
+  }
+  
+  .tabela-resultado-estagiarios td:last-child {
+    border-right: none;
+  }
+  
+  /* Estilo dos botões */
+  .icon-excluir,
+  .icon-editar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    /* margin-right: 10px; */
+    padding: 0;
+  }
+  
+  .icon-excluir:hover,
+  .icon-editar:hover {
+    color: #ff0000;
+  }
+  
+  /* Estilo dos ícones */
+  .icon-excluir svg,
+  .icon-editar svg {
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+  }
+  
+  /* Estilo das células centralizadas */
+  .centralizado {
+    text-align: center;
+  }
+  
+  /* Estilo dos cabeçalhos da tabela */
+  #id-estagiario2 {
+    width: 5%;
+  }
+  
+  #nome-estagiario2 {
+    width: 25%;
+  }
+  
+  #cpf-estagiario2 {
+    width: 15%;
+  }
+  
+  #ra-estagiario2 {
+    width: 10%;
+  }
+  
+  #senha-estagiario2 {
+    width: 10%;
+  }
+  
+  #tipo-estagiario2 {
+    width: 10%;
+  }
+  
+  #curso-estagiario2 {
+    width: 10%;
+  }
+  
+  #telefone-estagiario2 {
+    width: 10%;
+  }
+  
+  #icons-estagiario {
+    width: 5%;
+  }

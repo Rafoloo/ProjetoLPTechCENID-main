@@ -1,0 +1,38 @@
+.perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rtPerfil {
+    width: 695px;
+    height: 678px;
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 2px 2px rgba(122, 120, 241, 0.397);
+    border-radius: 30px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.visualizarPerfil {
+    font-size: 230px;
+    color: #666668;
+    margin: 59px 0 0 0;
+}
+
+.textoPerfil {
+    margin: 60px 0 0 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+

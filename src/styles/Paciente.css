@@ -1,0 +1,361 @@
+* {
+    box-sizing: 0;
+}
+
+.iconred {
+    color: red;
+}
+
+.iconyellow {
+    color: rgb(211, 211, 4);
+}
+
+.icongreen {
+    color: green;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 1rem;
+}
+
+.seta {
+    font-size: 25px;
+    margin-left: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.seta:hover {
+    color: rgb(192, 211, 228);
+}
+
+.eye {
+    margin-right: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.eye:hover {
+    color: rgb(192, 211, 228);
+}
+
+.paciente {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    font-family: lexend deca;
+    font-weight: 600;
+}
+
+.teste2 {
+    background: #0e426e;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    width: 70vw;
+    height: 45px;
+}
+
+.consultas {
+    background-color: #0e426e;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 70vw;
+    height: 45px;
+}
+
+.medicine {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 10em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.medicine:hover {
+    background-color: #171719;
+}
+
+.enfermagem {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 9.2em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enfermagem:hover {
+    background-color: #171719;
+}
+
+.edFisica {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 8.4em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edFisica:hover {
+    background-color: #171719;
+}
+
+.psico {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 9.8em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.psico:hover {
+    background-color: #171719;
+}
+
+.nutri {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 10.2em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nutri:hover {
+    background-color: #171719;
+}
+
+.exame {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 10.3em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.exame:hover {
+    background-color: #171719;
+}
+
+.ArmUni {
+    background-color: #0E426E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1rem;
+    padding: 0.8em 3.2em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ArmUni:hover {
+    background-color: #171719;
+}
+
+.areasConsulta2 {
+    margin-left: 10em;
+}
+
+.aConsulta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.iconAttach {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.css-botao-relatorio-consulta {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 1em;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: lexend deca;
+    border: none;
+}
+
+.css-botao-relatorio-consulta[disabled]:hover {
+    background: transparent;
+    background-color: transparent;
+}
+
+.icon-check-relatorio {
+    color: green;
+    margin: 0 0 0 0.5em;
+    /* background-color: rgb(0, 255, 200); */
+}
+
+.icon-check-relatorios {
+    color: rgb(218, 214, 24);
+    margin: 0 0 0 0.5em;
+    /* background-color: rgb(0, 255, 200); */
+}
+
+.icon-check-relatorio-red {
+    color: rgb(218, 24, 24);
+    margin: 0 0 0 0.5em;
+}
+
+@media only screen and (max-width: 1190px) {
+    .input1 {
+        padding: 1em 0.5em 1em 1em;
+        margin-top: 0.1em;
+    }
+
+    .input2 {
+        padding: 1em 2em 1em 1em;
+    }
+
+    .faixaAzul {
+        width: 80vw;
+    }
+
+    .infos2 {
+        font-size: 12px;
+    }
+
+    .medicine {
+        padding: 0.7em 5em;
+        margin-left: 7em;
+    }
+
+    .enfermagem {
+        padding: 0.7em 4.2em;
+        margin-left: 7em;
+    }
+
+    .edFisica {
+        padding: 0.7em 3.3em;
+        margin-left: 7em;
+    }
+
+    .psico {
+        padding: 0.7em 4.8em;
+        margin-left: 7em;
+    }
+
+    .nutri {
+        padding: 0.7em 4.8em;
+    }
+
+    .exame {
+        padding: 0.7em 4.9em;
+    }
+
+    .ArmUni {
+        padding: 0.2em 1em;
+    }
+
+    .dadosPaciente {
+        width: 80vw;
+
+    }
+
+    .css-botao-relatorio-consulta {
+        font-size: 13px;
+        padding: 2.5em 0.5em;
+    }
+}
+
+
+/******** novo *************/
+
+.input-CPF-paciente {
+    background-color: white;
+    width: 10em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+    height: 1.2em;
+}
+
+.input-nome-paciente {
+    background-color: white;
+    width: 30em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+    height: 1.2em;
+}
+
+.input-cartaoSUS-paciente {
+    background-color: white;
+    width: 11em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+    height: 1.2em;
+}
+
+.input-idade-paciente {
+    background-color: white;
+    width: 2em;
+    border-bottom: 1px solid gray;
+    margin-left: 0.5em;
+    height: 1.2em;
+}
+
+.label-paciente {
+    margin-left: 0.5em;
+}

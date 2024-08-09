@@ -1,0 +1,295 @@
+// import React, { useState } from 'react';
+// const Home = () => {
+//   const [sexo, setSexo] = useState('');
+//   const [idade, setIdade] = useState('');
+//   const [kg, setKg] = useState('');
+//   const [message, setMessage] = useState('');
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     let percentil;
+//     // Calculate percentil
+//     if (sexo === 'masculino') {
+//       if (idade < 17) {
+//         percentil = (kg - 30) * 100 / (50 - 30);
+//       } else if (idade < 30) {
+//         percentil = (kg - 35) * 100 / (60 - 35);
+//       } else if (idade < 40) {
+//         percentil = (kg - 40) * 100 / (65 - 40);
+//       } else if (idade < 50) {
+//         percentil = (kg - 45) * 100 / (70 - 45);
+//       } else if (idade < 60) {
+//         percentil = (kg - 50) * 100 / (75 - 50);
+//       } else if (idade < 70) {
+//         percentil = (kg - 55) * 100 / (80 - 55);
+//       } else if (idade < 80) {
+//         percentil = (kg - 60) * 100 / (85 - 60);
+//       }
+//     } else if (sexo === 'feminino') {
+//       if (idade < 17) {
+//         percentil = (kg - 20) * 100 / (40 - 20);
+//       } else if (idade < 30) {
+//         percentil = (kg - 25) * 100 / (45 - 25);
+//       } else if (idade < 40) {
+//         percentil = (kg - 30) * 100 / (50 - 30);
+//       } else if (idade < 50) {
+//         percentil = (kg - 35) * 100 / (55 - 35);
+//       } else if (idade < 60) {
+//         percentil = (kg - 40) * 100 / (60 - 40);
+//       } else if (idade < 70) {
+//         percentil = (kg - 45) * 100 / (65 - 45);
+//       } else if (idade < 80) {
+//         percentil = (kg - 50) * 100 / (70 - 50);
+//       }
+//     }
+//     // Calculate message
+//     if (percentil < 25) {
+//       setMessage('Pressão Manual Baixa');
+//     } else if (percentil >= 25 && percentil < 75) {
+//       setMessage('Pressão Manual Normal');
+//     } else {
+//       setMessage('Pressão Manual Elevada');
+//     }
+//   };
+//   return (
+//     <div>
+//       <form onSubmit={handleSubmit}>
+//         <fieldset>
+//           <legend>Calculadora de Pressão Manual</legend>
+//           <label>
+//             Selecione seu sexo:
+//             <select value={sexo} onChange={(e) => setSexo(e.target.value)}>
+//               <option value="masculino">Masculino</option>
+//               <option value="feminino">Feminino</option>
+//             </select>
+//           </label>
+//           <br />
+//           <label>
+//             Selecione sua idade:
+//             <input
+//               type="number"
+//               value={idade}
+//               onChange={(e) => setIdade(e.target.value)}
+//             />
+//           </label>
+//           <br />
+//           <label>
+//             Digite sua pressão manual (em kg):
+//             <input
+//               type="number"
+//               value={kg}
+//               onChange={(e) => setKg(e.target.value)}
+//             />
+//           </label>
+//           <br />
+//           <button type="submit">Calcular</button>
+//         </fieldset>
+//       </form>
+//       <p>{message}</p>
+//     </div>
+//   );
+// };      
+// export default Home;
+
+
+
+
+
+import React, { useState, useEffect } from 'react';
+
+const SaltoHorizontal = () => {
+  const [sex, setSex] = useState('');
+  const [age, setAge] = useState('');
+  const [saltoHorizontalCalc, setSaltoHorizontalCalc] = useState('');
+  const [score, setScore] = useState('');
+
+
+  useEffect(() => {
+    if (sex === 'masculino') {
+      // COMPARAÇÃO 7 ANOS
+      if (age === 7 && saltoHorizontalCalc < 93) {
+        setScore('Muito Baixo');
+      } else if (age === 7 && saltoHorizontalCalc >= 93 && saltoHorizontalCalc <= 104) {
+        setScore('Baixo');
+      } else if (age === 7 && saltoHorizontalCalc >= 105 && saltoHorizontalCalc <= 125) {
+        setScore('Mediano');
+      } else if (age === 7 && saltoHorizontalCalc >= 126 && saltoHorizontalCalc <= 137) {
+        setScore('Bom');
+      } else if (age === 7 && saltoHorizontalCalc > 137) {
+        setScore('Excelente');
+        // COMPARAÇÃO 8 ANOS 
+      } else if (age === 8 && saltoHorizontalCalc < 101) {
+        setScore('Muito Baixo');
+      } else if (age === 8 && saltoHorizontalCalc >= 101 && saltoHorizontalCalc <= 112) {
+        setScore('Baixo');
+      } else if (age === 8 && saltoHorizontalCalc >= 113 && saltoHorizontalCalc <= 133) {
+        setScore('Mediano');
+      } else if (age === 8 && saltoHorizontalCalc >= 134 && saltoHorizontalCalc <= 146) {
+        setScore('Bom');
+      } else if (age === 8 && saltoHorizontalCalc > 146) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 9 ANOS
+      else if (age === 9 && saltoHorizontalCalc < 109) {
+        setScore('Muito Baixo');
+      } else if (age === 9 && saltoHorizontalCalc >= 109 && saltoHorizontalCalc <= 120) {
+        setScore('Baixo');
+      } else if (age === 9 && saltoHorizontalCalc >= 121 && saltoHorizontalCalc <= 142) {
+        setScore('Mediano');
+      } else if (age === 9 && saltoHorizontalCalc >= 143 && saltoHorizontalCalc <= 155) {
+        setScore('Bom');
+      } else if (age === 9 && saltoHorizontalCalc > 155) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 10 ANOS
+      if (age === 10 && saltoHorizontalCalc < 117) {
+        setScore('Muito Baixo');
+      } else if (age === 10 && saltoHorizontalCalc >= 117 && saltoHorizontalCalc <= 129) {
+        setScore('Baixo');
+      } else if (age === 10 && saltoHorizontalCalc >= 130 && saltoHorizontalCalc <= 152) {
+        setScore('Mediano');
+      } else if (age === 10 && saltoHorizontalCalc >= 153 && saltoHorizontalCalc <= 164) {
+        setScore('Bom');
+      } else if (age === 10 && saltoHorizontalCalc > 164) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 11 ANOS 
+      if (age === 11 && saltoHorizontalCalc < 126) {
+        setScore('Muito Baixo');
+      } else if (age === 11 && saltoHorizontalCalc >= 126 && saltoHorizontalCalc <= 138) {
+        setScore('Baixo');
+      } else if (age === 11 && saltoHorizontalCalc >= 30 && saltoHorizontalCalc <= 162) {
+        setScore('Mediano');
+      } else if (age === 11 && saltoHorizontalCalc >= 163 && saltoHorizontalCalc <= 174) {
+        setScore('Bom');
+      } else if (age === 11 && saltoHorizontalCalc > 174) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 12 ANOS
+      if (age === 12 && saltoHorizontalCalc < 135) {
+        setScore('Muito Baixo');
+      } else if (age === 12 && saltoHorizontalCalc >= 135 && saltoHorizontalCalc <= 148) {
+        setScore('Baixo');
+      } else if (age === 12 && saltoHorizontalCalc >= 149 && saltoHorizontalCalc <= 172) {
+        setScore('Mediano');
+      } else if (age === 12 && saltoHorizontalCalc >= 173 && saltoHorizontalCalc <= 185) {
+        setScore('Bom');
+      } else if (age === 12 && saltoHorizontalCalc > 185) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 13 ANOS
+      if (age === 13 && saltoHorizontalCalc < 144) {
+        setScore('Muito baixa');
+      } else if (age === 13 && saltoHorizontalCalc >= 144 && saltoHorizontalCalc <= 157) {
+        setScore('Baixa');
+      } else if (age === 13 && saltoHorizontalCalc >= 158 && saltoHorizontalCalc <= 183) {
+        setScore('Bom');
+      } else if (age === 13 && saltoHorizontalCalc >= 184 && saltoHorizontalCalc <= 197) {
+        setScore('Muito Bom');
+      } else if (age === 13 && saltoHorizontalCalc > 197) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 14 ANOS
+      if (age === 14 && saltoHorizontalCalc < 154) {
+        setScore('Muito baixa');
+      } else if (age === 14 && saltoHorizontalCalc >= 154 && saltoHorizontalCalc <= 168) {
+        setScore('Baixa');
+      } else if (age === 14 && saltoHorizontalCalc >= 169 && saltoHorizontalCalc <= 194) {
+        setScore('Bom');
+      } else if (age === 14 && saltoHorizontalCalc >= 195 && saltoHorizontalCalc <= 209) {
+        setScore('Muito Bom');
+      } else if (age === 14 && saltoHorizontalCalc > 209) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 15 ANOS
+      if (age === 15 && saltoHorizontalCalc < 164) {
+        setScore('Muito baixa');
+      } else if (age === 15 && saltoHorizontalCalc >= 164 && saltoHorizontalCalc <= 178) {
+        setScore('Baixa');
+      } else if (age === 15 && saltoHorizontalCalc >= 179 && saltoHorizontalCalc <= 206) {
+        setScore('Bom');
+      } else if (age === 15 && saltoHorizontalCalc >= 207 && saltoHorizontalCalc <= 221) {
+        setScore('Muito Bom');
+      } else if (age === 15 && saltoHorizontalCalc > 221) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 16 ANOS
+      if (age === 16 && saltoHorizontalCalc < 174) {
+        setScore('Muito baixa');
+      } else if (age === 16 && saltoHorizontalCalc >= 174 && saltoHorizontalCalc <= 189) {
+        setScore('Baixa');
+      } else if (age === 16 && saltoHorizontalCalc >= 190 && saltoHorizontalCalc <= 219) {
+        setScore('Bom');
+      } else if (age === 16 && saltoHorizontalCalc >= 220 && saltoHorizontalCalc <= 234) {
+        setScore('Muito Bom');
+      } else if (age === 16 && saltoHorizontalCalc > 234) {
+        setScore('Excelente');
+      }
+      // COMPARAÇÃO 17 ANOS
+      if (age === 17 && saltoHorizontalCalc < 185) {
+        setScore('Muito baixa');
+      } else if (age === 17 && saltoHorizontalCalc >= 185 && saltoHorizontalCalc <= 200) {
+        setScore('Baixa');
+      } else if (age === 17 && saltoHorizontalCalc >= 201 && saltoHorizontalCalc <= 232) {
+        setScore('Bom');
+      } else if (age === 17 && saltoHorizontalCalc >= 233 && saltoHorizontalCalc <= 248) {
+        setScore('Muito Bom');
+      } else if (age === 17 && saltoHorizontalCalc > 248) {
+        setScore('Excelente');
+      }
+    };
+
+  }, [sex, age, saltoHorizontalCalc]);
+
+  return (
+    <div>
+      <div className="formulario-razao-de-cho-nutricao">
+        <table className="table-flexibilidade">
+          <tr>
+            <th>Distância &#40;cm&#41;</th>
+            <th>Classificação</th>
+          </tr>
+          <tr>
+            <th className="colunas-corpo-resposta">
+              <div className="inp-teste-flexibilidade">
+                <input
+                  type="number"
+                  value={saltoHorizontalCalc}
+                  className="input-questao-flexibilidade"
+                  name="input-questao1"
+                  onChange={e => setSaltoHorizontalCalc(e.target.value)}
+                />
+              </div>
+            </th>
+            <th className="colunas-corpo-resposta">
+              <div className="inp-teste-flexibilidade-paragrafo">
+                {/* CÁLCULO */}
+                <p className='score-flex'>{score}</p>
+              </div>
+            </th>
+          </tr>
+        </table>
+      </div>
+      <form>
+        <label>
+          Sexo:
+          <input
+            type="text"
+            value={sex}
+            onChange={e => setSex(e.target.value)}
+          />
+        </label>
+        <label>
+          Idade:
+          <input
+            type="text"
+            value={age}
+            onChange={e => setAge(e.target.value)}
+          />
+        </label>
+      </form>
+    </div>
+  );
+};
+
+
+export default SaltoHorizontal;

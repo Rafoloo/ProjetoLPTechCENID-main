@@ -1,0 +1,103 @@
+.div-termo-conflito {
+    display: flex;
+    justify-content: center;
+    height: 40em;
+}
+
+.declaracao {
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    width: 80vh;
+    /* height: 40em; */
+}
+
+.div-declaracao {
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.texto-div-declaracao {
+    display: grid;
+    justify-content: center;
+    padding: 10px 100px 10px 100px;
+}
+
+.input-name-declaracao {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 30em;
+}
+
+.number-crm-declaracao {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 10em;
+}
+
+.div-sem-mais {
+    padding: 10px 100px 10px 100px;
+}
+
+.div-sem-mais-assinatura {
+    padding: 10px 100px 10px 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.dia-input-termo {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 3em;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.mes-input-termo {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 10em;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.ano-input-termo {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 2em;
+}
+
+.p-input-assinatura {
+    width: 15em;
+    border-bottom: 1px solid gray;
+    margin-top: 2em;
+    padding: 10px 100px 10px 100px;
+}
+
+.input-assinatura {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 20em;
+    margin-top: 2em;
+}
+
+.assinatura-termo {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.div-centraç-termo {
+    justify-content: center;
+    display: flex;
+}

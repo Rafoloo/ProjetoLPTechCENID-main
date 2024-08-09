@@ -1,0 +1,390 @@
+.inputDataEd {
+  border: none;
+  background-color: transparent;
+  margin-right: 0.5em;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+
+.inputDataEd[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1);
+  margin-left: -0.8em;
+}
+
+.campo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-family: Lexend Deca;
+  flex-wrap: wrap;
+}
+
+.campoPerguntas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  font-family: Lexend Deca;
+  flex-wrap: wrap;
+}
+
+.h5-tipo-de-atendimento {
+  margin-right: 0.5em;
+}
+
+.importacao {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 0.3em;
+}
+
+#descreva {
+  margin-left: 0.3em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+#lactacao {
+  margin-left: 0.3em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.importacao {
+  margin-left: 0.5;
+}
+
+.input-semana-gestacao-Ed {
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  margin-left: 0.01em;
+  margin-right: 0.8em;
+  padding: 0 1em 0 0;
+  width: 3%;
+  outline: none;
+}
+
+.paragrafoFormsEd {
+  text-align: center;
+  font-family: lexend deca;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  background-color: #D8E3E8;
+  color: #EC1D21;
+}
+
+.paragrafos-de-dentro {
+  width: 115.5%;
+  text-align: center;
+  font-family: lexend deca;
+  font-size: 16px;
+  color: #EC1D21;
+  font-weight: 500;
+  background-color: #D8E3E8;
+}
+
+.inp-teste-ed {
+  display: flex;
+}
+
+.pergunta2-Ed {
+  font-family: lexend deca;
+  margin-left: 0.5em;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-edfisica-secao-1 {
+  background-color: #D8E3E8;
+}
+
+.inputcheckcenter {
+  margin-left: 1.7em;
+  margin-top: 1em;
+}
+
+
+/* TABLE 1 */
+#formulario-de-ed-fisica {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.form-edfisica13 {
+  background-color: #D8E3E8;
+  margin-top: 1em;
+}
+
+.colunas-cabecalho-questao {
+  font-size: 18px;
+  background-color: #D8E3E8;
+}
+
+.colunas-cabecalho-resposta {
+  font-size: 15px;
+  background-color: #D8E3E8;
+  width: 12%;
+}
+
+#edFisica {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+  font-family: lexend deca;
+  overflow: hidden;
+}
+
+.edFisica13 {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+  font-family: lexend deca;
+  overflow: hidden;
+}
+
+.sim, .nao {
+  margin-right: 0.5em;
+}
+
+#sim {
+  margin-left: 0.5em;
+}
+
+.colunas-corpo-paragrafo {
+  text-align: start;
+  background-color: #D8E3E8;
+  padding-left: 1em;
+}
+
+
+.colunas-corpo-resposta-th {
+  border: none;
+}
+
+.colunas-corpo-resposta {
+  background-color: white;
+  width: 13rem;
+}
+
+.colunas-corpo-resposta-th-input {
+  background-color: white;
+  border: 1px solid rgb(202, 200, 200);
+  outline: none;
+  text-align: center;
+  padding: 0.25em 0.01em;
+  text-align: center;
+  
+}
+
+.colunas-corpo-resposta-total {
+  background-color: white;
+  text-align: start;
+  padding: 0.3em;
+  font-family: lexend deca;
+  border: #ccc;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: -0.5em;
+  border-right: 1px solid rgb(202, 200, 200);
+}
+
+.colunas-corpo-resposta-total-direita {
+  background-color: white;
+  border: none;
+}
+
+/* Questão 1b */
+
+.inp-teste1b {
+  display: flex;
+}
+
+.input-questao1b {
+  margin-top: 1em;
+  margin-left: 1.55em;
+  height: 97%;
+  width: 20%;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+  outline: none;
+}
+
+.inp-teste-ed {
+  display: flex;
+  justify-content: center;
+}
+
+.input-check {
+  display: block;
+  font-size: 12px;
+  width: 56%;
+  height: 100%;
+  border-left: 1px solid rgb(212, 212, 212);
+}
+
+.inputcheckcentertable {
+  margin-top: 1em;
+}
+
+/* Questão 1c */
+
+.input-questao1c {
+  height: 4vh;
+  width: 8.22vw;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+input[type="time"i] {
+  font-size: 18px;
+}
+
+.table-round-corner {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  border-collapse: separate;
+  border: solid #ccc 1px;
+}
+
+/* TABLE RESUMO */
+
+.colunas-cabecalho-questao-resumo {
+  font-size: 18px;
+  background-color: #D8E3E8;
+  text-align: start;
+  padding-left: 1em;
+}
+
+.inp-teste-resumo {
+  display: flex;
+  justify-content: center;
+}
+
+.input-questao-resumo {
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.hr-divisao {
+  border-color: rgb(253, 253, 253);
+}
+
+.table-protocolo {
+  border-collapse: collapse;
+  font-family: lexend deca;
+  width: 100%;
+}
+
+.coluna-mao {
+  padding-left: 1em;
+  font-weight: 700;
+  width: 20%;
+}
+
+.classificacao {
+  width: 15%;
+}
+
+.inp-teste-condicionamento {
+  display: flex;
+  justify-content: center;
+}
+
+.input-questao-condicionamento {
+  height: 100%;
+  width: 30%;
+  border: none;
+  outline: none;
+  padding-left: 3em;
+}
+
+.input-questao-condicionamento-centro {
+  height: 100%;
+  width: 7%;
+  border: none;
+  outline: none;
+}
+
+.form-edfisica-condicionamento {
+  background-color: #D8E3E8;
+}
+
+/* FLEXIBILIDADE */
+
+.table-flexibilidade {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inp-teste-flexibilidade {
+  display: flex;
+  justify-content: center;
+}
+
+.input-questao-flexibilidade {
+  height: 100%;
+  width: 5%;
+  border: none;
+  outline: none;
+  padding-left: 3em;
+}
+
+.inp-teste-flexibilidade-paragrafo {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* RESISTÊNCIA AERÓBIA */
+
+.equacoes-resistencia{
+  width: 40%;
+}
+.inp-teste-resistencia {
+  display: flex;
+  justify-content: center;
+}
+
+.input-questao-resistencia {
+  height: 100%;
+  width: 20%;
+  border: none;
+  outline: none;
+  padding-left: 2em;
+}
+
+.input-questao-resistencia-centro {
+  height: 100%;
+  width: 15%;
+  border: none;
+  outline: none;
+}
+
+/***** DROP DOWN SEXO NOVO PACIENTE *****/
+
+.select-ed-fisica {
+  outline: none;
+  margin-left: 0.5em;
+  width: 9.4vw;
+  height: 1.2vw;
+  cursor: pointer;
+  font-family: lexend deca;
+}

@@ -1,0 +1,169 @@
+.sexo {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.centralizando {
+  color: white;
+}
+
+.faixaAzul-certa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e426e;
+}
+
+/*  */
+
+.colunas-cabecalho-questao-resumo-antropometria {
+  font-size: 18px;
+  background-color: transparent;
+  text-align: start;
+  padding-left: 1em;
+}
+
+.colunas-cabecalho-resposta-antropometria {
+  font-size: 15px;
+  background-color: transparent;
+  width: 12%;
+}
+
+.colunas-corpo-paragrafo-antropometria {
+  text-align: start;
+  background-color: transparent;
+  padding-left: 1em;
+}
+
+/*  */
+
+.table-protocolo-antropometria {
+  border-collapse: collapse;
+  font-family: lexend deca;
+  width: 100%;
+}
+
+.classificacao-antropometria {
+  width: 25%;
+}
+
+.coluna-mao-antropometria {
+  padding-left: 1em;
+  font-weight: 700;
+  width: 30%;
+}
+
+.colunas-corpo-resposta-antropometria {
+  background-color: white;
+}
+
+.inp-teste-condicionamento-antropometria {
+  display: flex;
+  justify-content: center;
+}
+
+.input-questao-condicionamento-antropometria {
+  height: 100%;
+  width: 10%;
+  border: none;
+  outline: none;
+  padding-left: 3em;
+}
+
+.input-questao-condicionamento-antropometria-protocolo {
+    height: 100%;
+    width: 25%;
+    border: none;
+    outline: none;
+    padding-left: 3em;
+  }
+
+/* BOTÃO DE ENVIAR OS EXAMES ANEXADOS */
+
+.form-flex-geral {
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    font-family: lexend deca;
+    margin-top: 1em;
+}
+.anexar-exame-geral {
+    border: 1px dashed gray;
+    width: 50vw;
+    height: 10vw;
+    cursor: pointer;
+    font-family: lexend deca;
+    font-size: 20px;
+}
+
+.anexar-exame-geral-block {
+    display: block;
+    border: 1px dashed gray;
+    width: 50vw;
+    height: 10vw;
+    cursor: pointer;
+    font-family: lexend deca;
+    font-size: 20px;
+    background-color: white;
+}
+
+.tags-flex-geral-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2em;
+}
+
+.tags-flex-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.download-tag {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.icon-download-title {
+    margin-left: 0.2em;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#send-the-form {
+    padding: 0.8em 8em;
+    display: block;
+    cursor: pointer;  
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(71, 95, 116);   
+}
+
+#send-the-form:hover {
+    background-color: #0e426e;
+    outline: none;
+}
+
+.icon-pin {
+    margin-right: 0.2em;
+    font-size: 25px;
+    color: #f1f1f1;
+}
+
+/* BOTÃO DE ENVIAR OS EXAMES ANEXADOS - PÁGINA DE ANEXAR EXAMES*/
+
+.form-flex-geral-exames {
+    display: flex ;
+    justify-content: center;
+    font-family: lexend deca;
+    margin-top: 10em;
+}

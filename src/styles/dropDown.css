@@ -1,0 +1,260 @@
+/***** DROPDOWN CURSO ADMIN *****/
+
+.curso-estagiario {
+    height: 3vw;
+    font-family: lexend deca;
+    width: 15vw;
+}
+
+/***** DROP DOWN SEXO NOVO PACIENTE *****/
+
+.select-sexo-novo-paciente {
+    outline: none;
+    margin-left: 0.5em;
+    width: 9.4vw;
+    height: 1.2vw;
+    cursor: pointer;
+    font-family: lexend deca;
+}
+
+/***** DROPDOWN CURSO ADMIN *****/
+
+.curso-estagiario {
+    outline: none;
+    width: 20.3vw;
+    margin-left: 0.3em;
+    height: 1.3vw;
+    margin-top: 0.5em;
+    cursor: pointer;
+    font-family: lexend deca;
+}
+
+/***** DROPDOWN TIPO ADMIN *****/
+
+.tipo-estagiario {
+    outline: none;
+    width: 15.4vw;
+    margin-left: 0.3em;
+    height: 1.2vw;
+    margin-top: 0.5em;
+    cursor: pointer;
+    font-family: lexend deca;
+}
+
+/***** DROPDOWN MARCA/MODELO GLICOMETRO *****/
+
+.marca-modelo-glicometro {
+    outline: none;
+    width: 12vw;
+    margin-left: 0.3em;
+    height: 1.5vw;
+    cursor: pointer;
+    font-family: lexend deca;
+}
+
+/***** DROPDOWN TABELA SINTOMAS MED *****/
+
+.button-queixas-sintomas {
+    font-family: lexend deca;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    background-color: #e4ecf0;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 10vw;
+}
+
+.button-queixas-sintomas:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+.p-queixas-sintomas {
+    display: flex;
+    align-items: center;
+}
+
+.table-queixas-sintomas {
+    width: 20.1vw;
+}
+
+.table-tr-td-queixas-sintomas {
+    font-family: lexend deca;
+    background-color: #e4ecf0;
+}
+
+.seta-dropdown-med {
+    font-size: 22px;
+    margin-left: 0.5em;
+}
+
+/*****  DROPDOWN DESENVOLVIMENTO MASC MED *****/
+
+.button-desenvolviment-masc {
+    font-family: lexend deca;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    background-color: #e4ecf0;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 61.1vw;
+}
+
+.button-desenvolviment-masc:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+.p-desenvolvimento-masc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-estagio1 {
+    display: flex;
+    align-items: center;
+    width: 30.4vw;
+}
+
+.div-estagio1 {
+    display: flex;
+    align-items: center;
+    width: 30.3vw;
+}
+
+.estagio1 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 8vw;
+}
+
+.estagio2 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 18vw;
+}
+
+.estagio2-2 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 18vw;
+}
+
+.estagio3 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 14vw; 
+}
+
+.estagio3-3 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 24.6vw; 
+}
+
+.estagio4 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 23vw; 
+}
+
+.estagio4-4 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 21vw; 
+}
+
+.estagioo-desen {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*****  DROPDOWN DESENVOLVIMENTO FEM MED *****/
+
+.estagiomama1 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 5vw;
+}
+
+.estagiomama2 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 23vw;
+}
+
+.estagiomama3 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 11vw;
+}
+
+.estagiomama4 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 16vw;
+}
+
+.estagiomama5 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 14vw;
+}
+
+.estagiopelofem1 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 6vw;
+}
+
+.estagiopelofem2 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 15vw;
+}
+
+.estagiopelofem3 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 19vw;
+}
+
+.estagiopelofem4 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 12.5vw;
+}
+
+.estagiopelofem5 {
+    margin-left: 0.5em;
+    font-weight: 600;
+    width: 12vw;
+}
+
+/***** DROPDOWN LISTA NOMES BASAL MED *****/
+
+.select-basal {
+    width: 10vw;
+    height: 1.3vw;
+    cursor: pointer;
+    font-family: lexend deca;
+    outline: none;
+    border: none;
+}
+
+.select-basal:hover{
+    background-color: #e4ecf0;
+}
+
+/* DROPDOWN AGENDAR CONSULTA */
+
+.agendar-consulta-dropdown{
+    width: 14vw;
+    height: 1.3vw;
+    cursor: pointer;
+    font-family: lexend deca;
+    outline: none;
+    font-weight: 600;
+}

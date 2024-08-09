@@ -1,0 +1,612 @@
+// import React, { useState } from 'react';
+
+// function Home() {
+//   const [age, setAge] = useState(null);
+//   const [weight, setWeight] = useState(null);
+
+//   //Calculate female pressure
+//   let femalePressureDominantHand = -7.95 + 2.04 * (age) + 0.20 * (weight);
+//   let femalePressureNonDominantHand = -7.15 + 1.97 * (age) + 0.17 * (weight);
+
+//   if(age <= 20){
+//     femalePressureDominantHand = weight * 0.47;
+//     femalePressureNonDominantHand = weight * 0.43;
+//   }
+//   else if(age > 20 && age <= 40){
+//     femalePressureDominantHand = weight * 0.45;
+//     femalePressureNonDominantHand = weight * 0.41;
+//   }
+//   else if(age > 40 && age <= 60){
+//     femalePressureDominantHand = weight * 0.43;
+//     femalePressureNonDominantHand = weight * 0.40;
+//   }
+//   else {
+//     femalePressureDominantHand = weight * 0.41;
+//     femalePressureNonDominantHand = weight * 0.38;
+//   }
+
+
+//   //Calculate male pressure
+//   let malePressureDominantHand = -2.73 + 1.44 * (age) + 0.14 * (weight);  
+//   let malePressureNonDominantHand = -2.18 + 1.34 * (age) + 0.13 * (weight);
+
+//   if(age <= 20){
+//     malePressureDominantHand = weight * 0.52;
+//     malePressureNonDominantHand = weight * 0.48;
+//   }
+//   else if(age > 20 && age <= 40){
+//     malePressureDominantHand = weight * 0.50;
+//     malePressureNonDominantHand = weight * 0.46;
+//   }
+//   else if(age > 40 && age <= 60){
+//     malePressureDominantHand = weight * 0.48;
+//     malePressureNonDominantHand = weight * 0.45;
+//   }
+//   else {
+//     malePressureDominantHand = weight * 0.46;
+//     malePressureNonDominantHand = weight * 0.43;
+//   }
+
+
+//   // Condições Mão dominante (FEMININO)
+//   if (femalePressureDominantHand < 25) {
+//     setMessage('Pressão Manual Baixa');
+//   } else if (femalePressureDominantHand >= 25 && femalePressureDominantHand < 75) {
+//     setMessage('Pressão Manual Normal');
+//   } else {
+//     setMessage('Pressão Manual Elevada');
+//   }
+
+//   // Condições mão não dominante (FEMININO)
+//   if (femalePressureNonDominantHand < 25) {
+//     setMessage('Pressão Manual Baixa');
+//   } else if (femalePressureNonDominantHand >= 25 && femalePressureNonDominantHand < 75) {
+//     setMessage('Pressão Manual Normal');
+//   } else {
+//     setMessage('Pressão Manual Elevada');
+//   }
+
+
+//     // Condições Mão dominante (MACULINO)
+//     if (malePressureDominantHand < 25) {
+//       setMessage('Pressão Manual Baixa');
+//     } else if (malePressureDominantHand >= 25 && malePressureDominantHand < 75) {
+//       setMessage('Pressão Manual Normal');
+//     } else {
+//       setMessage('Pressão Manual Elevada');
+//     }
+  
+//     // Condições mão não dominante (MASCULINO)
+//     if (malePressureNonDominantHand < 25) {
+//       setMessage('Pressão Manual Baixa');
+//     } else if (malePressureNonDominantHand >= 25 && malePressureNonDominantHand < 75) {
+//       setMessage('Pressão Manual Normal');
+//     } else {
+//       setMessage('Pressão Manual Elevada');
+//     }
+  
+
+//   return (
+//     <div>
+//       <h1>Pressão Manual</h1>
+//       <label>Idade:</label>
+//       <input type="number" onChange={e => setAge(e.target.value)} />
+//       <label>Peso:</label>
+//       <input type="number" onChange={e => setWeight(e.target.value)} />
+//       <h2>Resultado</h2>
+//       <p>
+//         Pressão Manual Feminina (Mão Dominante): {femalePressureDominantHand}
+//       </p>
+//       <p>
+//         Pressão Manual Feminina (Mão Não Dominante): {femalePressureNonDominantHand}
+//       </p>
+//       <p>
+//         Pressão Manual Masculina (Mão Dominante): {malePressureDominantHand}
+//       </p>
+//       <p>
+//         Pressão Manual Masculina (Mão Não Dominante): {malePressureNonDominantHand}
+//       </p>
+//     </div>
+//   );
+// }
+
+// export default Home;
+
+
+
+
+
+// import React, { useState } from 'react';
+// const Home = () => {
+//   const [sexo, setSexo] = useState('');
+//   const [idade, setIdade] = useState('');
+//   const [kg, setKg] = useState('');
+//   const [message, setMessage] = useState('');
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     let percentil;
+//     // Calculate percentil
+//     if (sexo === 'masculino') {
+//       if (idade < 17) {
+//         percentil = (kg - 30) * 100 / (50 - 30);
+//       } else if (idade < 30) {
+//         percentil = (kg - 35) * 100 / (60 - 35);
+//       } else if (idade < 40) {
+//         percentil = (kg - 40) * 100 / (65 - 40);
+//       } else if (idade < 50) {
+//         percentil = (kg - 45) * 100 / (70 - 45);
+//       } else if (idade < 60) {
+//         percentil = (kg - 50) * 100 / (75 - 50);
+//       } else if (idade < 70) {
+//         percentil = (kg - 55) * 100 / (80 - 55);
+//       } else if (idade < 80) {
+//         percentil = (kg - 60) * 100 / (85 - 60);
+//       }
+//     } else if (sexo === 'feminino') {
+//       if (idade < 17) {
+//         percentil = (kg - 20) * 100 / (40 - 20);
+//       } else if (idade < 30) {
+//         percentil = (kg - 25) * 100 / (45 - 25);
+//       } else if (idade < 40) {
+//         percentil = (kg - 30) * 100 / (50 - 30);
+//       } else if (idade < 50) {
+//         percentil = (kg - 35) * 100 / (55 - 35);
+//       } else if (idade < 60) {
+//         percentil = (kg - 40) * 100 / (60 - 40);
+//       } else if (idade < 70) {
+//         percentil = (kg - 45) * 100 / (65 - 45);
+//       } else if (idade < 80) {
+//         percentil = (kg - 50) * 100 / (70 - 50);
+//       }
+//     }
+//     // Calculate message
+//     if (percentil < 25) {
+//       setMessage('Pressão Manual Baixa');
+//     } else if (percentil >= 25 && percentil < 75) {
+//       setMessage('Pressão Manual Normal');
+//     } else {
+//       setMessage('Pressão Manual Elevada');
+//     }
+//   };
+//   return (
+//     <div>
+//       <form onSubmit={handleSubmit}>
+//         <fieldset>
+//           <legend>Calculadora de Pressão Manual</legend>
+//           <label>
+//             Selecione seu sexo:
+//             <select value={sexo} onChange={(e) => setSexo(e.target.value)}>
+//               <option value="masculino">Masculino</option>
+//               <option value="feminino">Feminino</option>
+//             </select>
+//           </label>
+//           <br />
+//           <label>
+//             Selecione sua idade:
+//             <input
+//               type="number"
+//               value={idade}
+//               onChange={(e) => setIdade(e.target.value)}
+//             />
+//           </label>
+//           <br />
+//           <label>
+//             Digite sua pressão manual (em kg):
+//             <input
+//               type="number"
+//               value={kg}
+//               onChange={(e) => setKg(e.target.value)}
+//             />
+//           </label>
+//           <br />
+//           <button type="submit">Calcular</button>
+//         </fieldset>
+//       </form>
+//       <p>{message}</p>
+//     </div>
+//   );
+// };      
+// export default Home;
+
+
+
+// import React, { useState } from 'react';
+
+// function CompareInputs(){
+//   const [valor1, setValor1] = useState(0);
+//   const [valor2, setValor2] = useState(0);
+
+//   function compararValores(){
+//     if(valor1 < valor2){
+//       return "Baixo";
+//     } else if (valor1 > valor2){
+//       return "Elevado";
+//     } else {
+//       return "Normal";
+//     }
+//   }
+
+//   return (
+//     <div>
+//       <input
+//         type="number"
+//         value={valor1}
+//         onChange={e => setValor1(e.target.value)}
+//       />
+//       <input
+//         type="number"
+//         value={valor2}
+//         onChange={e => setValor2(e.target.value)}
+//       />
+//       <h3>{compararValores()}</h3>
+//     </div>
+//   );
+// }
+
+// export default CompareInputs;
+
+
+
+// import React, { useState } from 'react';
+
+// const Home = () => {
+//   const [weight, setWeight] = useState(0);
+//   const [sex, setSex] = useState('');
+//   const [dominantHandPressure, setDominantHandPressure] = useState(0);
+//   const [nonDominantHandPressure, setNonDominantHandPressure] = useState(0);
+
+//   //Calculate Pressure
+//   const calculatePressure = (weight, sex) => {
+//     let malePressure;
+//     let femalePressure;
+//     if (sex === 'male') {
+//       malePressure = (weight * 0.9) + 18;
+//       femalePressure = (weight * 0.75) + 13;
+//     } else if (sex === 'female') {
+//       malePressure = (weight * 0.9) + 20;
+//       femalePressure = (weight * 0.75) + 15;
+//     }
+//     setDominantHandPressure(malePressure);
+//     setNonDominantHandPressure(femalePressure);
+//   };
+
+//   return (
+//     <div>
+//       <h2>Hand Pressure Calculator</h2>
+//       <form>
+//         <div>
+//           <label>Weight (KG)</label>
+//           <input
+//             type="number"
+//             onChange={e => setWeight(e.target.value)}
+//           />
+//         </div>
+//         <div>
+//           <label>Sex</label>
+//           <select onChange={e => setSex(e.target.value)}>
+//             <option value="">Choose your gender</option>
+//             <option value="male">Male</option>
+//             <option value="female">Female</option>
+//           </select>
+//         </div>
+//         <button
+//           type="button"
+//           onClick={() => calculatePressure(weight, sex)}
+//         >
+//           Calculate Pressure
+//         </button>
+//       </form>
+//       {dominantHandPressure && nonDominantHandPressure && (
+//         <div>
+//           <p>
+//             Dominant Hand Pressure: {dominantHandPressure} Kgf/cm²
+//           </p>
+//           <p>
+//             Non Dominant Hand Pressure: {nonDominantHandPressure} Kgf/cm²
+//           </p>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default Home;
+
+
+  // function compararValoresMaoDominante() {
+  //   if (femalePressureDominantHand === "feminino") {
+  //     if (femalePressureDominantHand <= 25) {
+  //       return "Baixo";
+  //     } else if (femalePressureDominantHand === "feminino" && femalePressureDominantHand > 25 && femalePressureDominantHand < 75) {
+  //       return "Normal";
+  //     } else if (femalePressureDominantHand === "feminino" && femalePressureDominantHand > 75) {
+  //       return "Elevado";
+  //     } else if (femalePressureNonDominantHand === "feminino" && femalePressureNonDominantHand <= 25) {
+  //       return "Baixo";
+  //     } else if (femalePressureNonDominantHand === "feminino" && femalePressureNonDominantHand > 25 && femalePressureNonDominantHand < 75) {
+  //       return "Normal";
+  //     } else if (femalePressureNonDominantHand === "feminino" && femalePressureNonDominantHand > 75) {
+  //       return "Elevado";
+  //     }
+  //   }
+
+  //   if (malePressureDominantHand === "masculino") {
+  //     if (malePressureDominantHand === "masculino" && malePressureDominantHand <= 25) {
+  //       return "Baixo";
+  //     } else if (malePressureDominantHand === "masculino" && malePressureDominantHand > 25 && malePressureDominantHand < 75) {
+  //       return "Normal";
+  //     } else if (malePressureDominantHand === "masculino" && malePressureDominantHand > 75) {
+  //       return "Elevado";
+  //     } else if (malePressureNonDominantHand === "masculino" && malePressureNonDominantHand <= 25) {
+  //       return "Baixo";
+  //     } else if (malePressureNonDominantHand === "masculino" && malePressureNonDominantHand > 25 && malePressureNonDominantHand < 75) {
+  //       return "Normal";
+  //     } else if (malePressureNonDominantHand === "masculino" && malePressureNonDominantHand > 75) {
+  //       return "Elevado";
+  //     }
+  //   }
+  // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  if (sex == 'male') {
+    // COMPARAÇÃO 7 ANOS FEMININO
+    if (age == 7 && flex < 26) {
+      setScore('Muito Fraco');
+    } else if (age == 7 && flex >= 26 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age == 7 && flex >= 30 && flex <= 33) {
+      setScore('Razoável');
+    } else if (age == 7 && flex >= 34 && flex <= 37) {
+      setScore('Bom');
+    } else if (age == 7 && flex >= 38 && flex <= 49) {
+      setScore('Muito Bom');
+    } else if (age == 7 && flex >= 50) {
+      setScore('Excelência');
+    // COMPARAÇÃO ENTRE 08 E 09 ANOS FEMININO
+    } else if (age >= 12 && age <= 13 && flex < 26) {
+      setScore('Muito Fraco');
+    } else if (age == 12 && age == 13 && flex >= 25 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age == 12 && age == 13 && flex >= 25 && flex <= 29) {
+      setScore('Razoável');
+    } else if (age == 12 && age == 13 && flex >= 25 && flex <= 29) {
+      setScore('Bom');
+    } else if (age == 12 && age == 13 && flex >= 25 && flex <= 29) {
+      setScore('Muito Bom');
+    } else if (age == 10 && flex >= 50) {
+      setScore('Excelência');
+    }
+    // COMPARAÇÃO 11 ANOS
+    else if (age == 11 && flex < 25) {
+      setScore('Muito Fraco');
+    } else if (age == 11 && flex >= 25 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age == 11 && flex >= 30 && flex <= 33) {
+      setScore('Razoável');
+    } else if (age == 11 && flex >= 34 && flex <= 38) {
+      setScore('Bom');
+    } else if (age == 11 && flex >= 39 && flex <= 49) {
+      setScore('Muito Bom');
+    } else if (age == 11 && flex >= 50) {
+      setScore('Excelência');
+    }
+    // COMPARAÇÃO 12 E 13 ANOS
+    if (age >= 12 && age <= 13 && flex < 25) {
+      setScore('Muito Fraco');
+    } else if (age == 12 && age == 13 && flex >= 25 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age == 12 && age == 13 && flex >= 30 && flex <= 34) {
+      setScore('Razoável');
+    } else if (age == 12 && age == 13 && flex >= 35 && flex <= 38) {
+      setScore('Bom');
+    } else if (age == 12 && age == 13 && flex >= 39 && flex <= 49) {
+      setScore('Muito Bom');
+    } else if (age == 12 && age == 13 && flex >= 50) {
+      setScore('Excelência');
+    }
+    // COMPARAÇÃO 14 E 15 ANOS 
+    if (age >= 14 && age <= 15 && flex < 25) {
+      setScore('Muito Fraco');
+    } else if (age >= 14 && age <= 15 && flex >= 25 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age >= 14 && age <= 15 && flex >= 30 && flex <= 34) {
+      setScore('Razoável');
+    } else if (age >= 14 && age <= 15 && flex >= 35 && flex <= 39) {
+      setScore('Bom');
+    } else if (age >= 14 && age <= 15 && flex >= 40 && flex <= 49) {
+      setScore('Muito Bom');
+    } else if (age >= 14 && age <= 15 && flex >= 50) {
+      setScore('Excelência');
+    }
+    // COMPARAÇÃO 16 E 17 ANOS
+    if (age >= 16 && age <= 17 && flex < 25) {
+      setScore('Muito Fraco');
+    } else if (age >= 16 && age <= 17 && flex >= 25 && flex <= 29) {
+      setScore('Fraco');
+    } else if (age >= 16 && age <= 17 && flex >= 30 && flex <= 35) {
+      setScore('Razoável');
+    } else if (age >= 16 && age <= 17 && flex >= 36 && flex <= 40) {
+      setScore('Bom');
+    } else if (age >= 16 && age <= 17 && flex >= 41 && flex <= 49) {
+      setScore('Muito Bom');
+    } else if (age >= 16 && age <= 17 && flex >= 50) {
+      setScore('Excelência');
+    }  
+  };
+
+
+
+
+
+
+  // import React from 'react'
+
+// const ClassificacaoFlexibilidade = () => {
+  // const [sexo, setSexo] = useState("");
+  // const [idade, setIdade] = useState(0);
+  // const [flex, setFlex] = useState(0);
+  // const [menssagem, setMenssagem] = useState('');
+
+  // const flexibilidadeMaculina = () => {
+  //   if (sexo === 'masculino') {
+  //     if (idade >= 7 && idade <= 9) {
+  //       if (flex < 25) {
+  //         setMenssagem('M.Fraco');
+  //       }
+  //     }
+      //   else if (idade < 30) {
+      //     percentil = (kg - 35) * 100 / (60 - 35);
+      //   } else if (idade < 40) {
+      //     percentil = (kg - 40) * 100 / (65 - 40);
+      //   } else if (idade < 50) {
+      //     percentil = (kg - 45) * 100 / (70 - 45);
+      //   } else if (idade < 60) {
+      //     percentil = (kg - 50) * 100 / (75 - 50);
+      //   } else if (idade < 70) {
+      //     percentil = (kg - 55) * 100 / (80 - 55);
+      //   } else if (idade < 80) {
+      //     percentil = (kg - 60) * 100 / (85 - 60);
+      //   }
+      // } else if (sexo === 'feminino') {
+      //   if (idade < 17) {
+      //     percentil = (kg - 20) * 100 / (40 - 20);
+      //   } else if (idade < 30) {
+      //     percentil = (kg - 25) * 100 / (45 - 25);
+      //   } else if (idade < 40) {
+      //     percentil = (kg - 30) * 100 / (50 - 30);
+      //   } else if (idade < 50) {
+      //     percentil = (kg - 35) * 100 / (55 - 35);
+      //   } else if (idade < 60) {
+      //     percentil = (kg - 40) * 100 / (60 - 40);
+      //   } else if (idade < 70) {
+      //     percentil = (kg - 45) * 100 / (65 - 45);
+      //   } else if (idade < 80) {
+      //     percentil = (kg - 50) * 100 / (70 - 50);
+      //   }
+    // }
+    // Calculate message
+    // if (percentil < 25) {
+    //   setMessage('Pressão Manual Baixa');
+    // } else if (percentil >= 25 && percentil < 75) {
+    //   setMessage('Pressão Manual Normal');
+    // } else {
+    //   setMessage('Pressão Manual Elevada');
+    // }
+  // }
+  // return (
+  //   <div>
+  //     <fieldset>
+  //       <legend>Calculadora de Pressão Manual</legend>
+  //       <label>
+  //         Selecione seu sexo:
+  //         <select value={sexo} onChange={(e) => setSexo(e.target.value)}>
+  //           <option value="masculino">Masculino</option>
+  //           <option value="feminino">Feminino</option>
+  //         </select>
+  //       </label>
+  //       <br />
+  //       <label>
+  //         Selecione sua idade:
+  //         <input
+  //           type="number"
+  //           value={idade}
+  //           onChange={(e) => setIdade(e.target.value)}
+  //         />
+  //       </label>
+  //       <br />
+  //       <label>
+  //         Digite sua pressão manual (em kg):
+  //         <input
+  //           type="number"
+  //           value={kg}
+  //           onChange={(e) => setKg(e.target.value)}
+  //         />
+  //       </label>
+  //     </fieldset>
+  //   </div>
+  // )
+// }
+
+// export default ClassificacaoFlexibilidade
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useState, useEffect } from 'react';
+
+// const FlexibilityScore = () => {
+//   const [ sex, setSex ] = useState('');
+//   const [ age, setAge ] = useState('');
+//   const [ score, setScore ] = useState('');
+
+//   useEffect(() => {
+//     if(sex === 'male' && age >= 18 && age <= 25) {
+//       setScore('Excelente');
+//     } else if (sex === 'male' && age > 25 && age <= 40) {
+//       setScore('Muito Bom');
+//     } else if (sex === 'male' && age > 40 && age <= 60) {
+//       setScore('Bom');
+//     } else if (sex === 'male' && age > 60) {
+//       setScore('Razoável');
+//     } else if (sex === 'female' && age >= 18 && age <= 25) {
+//       setScore('Muito Bom');
+//     } else if (sex === 'female' && age > 25 && age <= 40) {
+//       setScore('Bom');
+//     } else if (sex === 'female' && age > 40 && age <= 60) {
+//       setScore('Razoável');
+//     } else if (sex === 'female' && age > 60) {
+//       setScore('Fraco');
+//     } else {
+//       setScore('Muito Fraco');
+//     }
+//   }, [sex, age]);
+
+//   return (
+//     <div>
+//       <h1>Avaliação de Flexibilidade</h1>
+//       <form>
+//         <label>
+//           Sexo:
+//           <input
+//             type="text"
+//             value={sex}
+//             onChange={e => setSex(e.target.value)}
+//           />
+//         </label>
+//         <label>
+//           Idade:
+//           <input
+//             type="text"
+//             value={age}
+//             onChange={e => setAge(e.target.value)}
+//           />
+//         </label>
+//         <p>
+//           Sua pontuação: {score}
+//         </p>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default
