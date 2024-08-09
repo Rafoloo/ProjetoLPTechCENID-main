@@ -50,7 +50,7 @@ body.active-modal {
 
 .modalSair {
     padding: 1em 3.5em;
-    border-radius: 30px;
+    border-radius: 25px;
     font-size: 16px;
     background-color: #EC1D21;
     color: white;
@@ -67,7 +67,7 @@ body.active-modal {
 
 .modalFicar {
     padding: 1em 3.5em;
-    border-radius: 30px;
+    border-radius: 25px;
     font-size: 16px;
     background-color: #f1f1f1;
     color: gray;
@@ -96,8 +96,8 @@ body.active-modal {
     transform: translate(-50%, -50%);
     line-height: 1.4;
     background: #ffff;
-    padding: 14px 28px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
     max-width: 600px;
     min-width: 300px;
 }
@@ -165,26 +165,35 @@ body.active-modal {
     cursor: pointer;
     font-weight: 700;
     border: none;
-    margin-left: 4.5em;
-    margin-bottom: 37px;
+    margin: 20px auto 37px auto; /* Centraliza o botão horizontalmente */
+    display: block;
+    max-width: 200px; /* Limite máximo para o botão */
 }
+
 
 .visualizarPerfil {
     font-size: 200px;
     color: #adadad;
     display: flex;
     justify-content: center;
-    margin-left: 0.3em;
+    margin: 0 auto; /* Centraliza a visualização */
+    max-width: 200px; /* Limite máximo para a visualização */
+    max-height: 200px;
 }
+
 
 .textoPerfil {
     display: block;
     font-weight: 700;
-    margin: 35px;
+    margin: 35px auto;
+    text-align: center; /* Centraliza o texto */
+    max-width: 90%; /* Limite de largura para evitar overflow */
 }
 
 .textPerfil {
     display: flex;
+    flex-direction: column; /* Direção em coluna para telas menores */
+    align-items: center;
 }
 
 .modalPerfil, .overlay {
@@ -512,3 +521,50 @@ body.active-modal {
     color: #790406;
 }
 
+@media (max-width: 768px), (max-height: 768px) {
+    .modalFechar {
+        padding: 0.8em 2.5em;
+        font-size: 14px;
+        max-width: 180px; /* Mantém o botão dentro do layout */
+    }
+
+    .visualizarPerfil {
+        font-size: 150px;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .textoPerfil {
+        margin: 20px auto;
+        text-align: center;
+        max-width: 85%;
+    }
+
+    .textPerfil {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px), (max-height: 480px) {
+    .modalFechar {
+        padding: 0.6em 2em;
+        font-size: 12px;
+        max-width: 150px; /* Mantém o botão dentro do layout */
+    }
+
+    .visualizarPerfil {
+        font-size: 100px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .textoPerfil {
+        margin: 10px auto;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .textPerfil {
+        align-items: center;
+    }
+}
