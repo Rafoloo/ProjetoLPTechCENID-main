@@ -111,7 +111,7 @@ const EditarCadastro = () => {
                 <input
                   className="input-nome-editar-cadastro"
                   type="text"
-                  value={nome || ''}
+                  value={nome}
                   onChange={(event) => setNome(event.target.value)}
                 />
               </label>
@@ -121,7 +121,7 @@ const EditarCadastro = () => {
                   mask="999.999.999-99"
                   className="input-cpf-editar-cadastro"
                   type="text"
-                  value={cpf || ''}
+                  value={cpf}
                   onChange={(event) => setCPF(event.target.value)}
                 />
               </label>
@@ -131,7 +131,7 @@ const EditarCadastro = () => {
                   mask="99.999.999-9"
                   className="input-rg-editar-cadastro"
                   type="text"
-                  value={rg || ''}
+                  value={rg}
                   onChange={(event) => setRG(event.target.value)}
                 />
               </label>
@@ -143,7 +143,7 @@ const EditarCadastro = () => {
                   mask="999 9999 9999 9999"
                   className="input-cartaoSUS-editar-cadastro"
                   type="text"
-                  value={sus || ''}
+                  value={sus}
                   onChange={(event) => setSus(event.target.value)}
                 />
               </label>
@@ -152,7 +152,7 @@ const EditarCadastro = () => {
                 <input
                   className="input-cartaoSUS-editar-cadastro"
                   type="date"
-                  value={formatarData(data_nascimento) || ''}
+                  value={formatarData(data_nascimento)}
                   onChange={(event) => setNascimento(event.target.value)}
                 />
               </label>
@@ -162,7 +162,7 @@ const EditarCadastro = () => {
                   mask="(99) 99999-9999"
                   className="input-cartaoSUS-editar-cadastro"
                   type="text"
-                  value={telefone || ''}
+                  value={telefone}
                   onChange={(event) => setTelefone(event.target.value)}
                 />
               </label>
@@ -170,7 +170,7 @@ const EditarCadastro = () => {
                 SEXO:
                 <select
                   className="select-sexo-novo-paciente1"
-                  value={selectsexo || ''}
+                  value={selectsexo}
                   onChange={(e) => setSelectsexo(e.target.value)}
                 >
                   <option value={""}>Selecione:</option>
@@ -186,7 +186,7 @@ const EditarCadastro = () => {
                   className="input-endereco-editar-cadastro"
                   type="text"
                   placeholder="ex: R ..., Bairro ..."
-                  value={endereco || ''}
+                  value={endereco}
                   onChange={(event) => setEndereco(event.target.value)}
                 />
               </label>
@@ -195,7 +195,7 @@ const EditarCadastro = () => {
                 <input
                   className="input-numero-editar-cadastro"
                   type="text"
-                  value={numero || ''}
+                  value={numero}
                   onChange={(event) => setNumero(event.target.value)}
                 />
               </label>
@@ -213,7 +213,7 @@ const EditarCadastro = () => {
                   <input
                     className="input-nome-dados-responsavel"
                     type="text"
-                    value={nome_responsavel || ''}
+                    value={nome_responsavel}
                     onChange={(event) => setNome_responsavel(event.target.value)}
                   />
                 </label>
@@ -223,7 +223,7 @@ const EditarCadastro = () => {
                     mask="999.999.999-99"
                     className="input-cpf-dados-responsavel"
                     type="text"
-                    value={cpf_responsavel || ''}
+                    value={cpf_responsavel}
                     onChange={(event) => setCpf_responsavel(event.target.value)}
                   />
                 </label>
@@ -233,28 +233,37 @@ const EditarCadastro = () => {
                     mask="99.999.999-9"
                     className="input-rg-dados-responsavel"
                     type="text"
-                    value={rg_responsavel || ''}
+                    value={rg_responsavel}
                     onChange={(event) => setRg_responsavel(event.target.value)}
                   />
                 </label>
+                <label>
+                  DATA DE NASCIMENTO:
+                  <input
+                    className="input-data-nascimento-dados-responsavel"
+                    type="date"
+                    value={formatarData(data_nascimento_responsavel)}
+                    onChange={(event) => setData_nascimento_responsavel(event.target.value)}
+                  />
+                </label>
+              </form>
+              <form className="form-novo-cadastro">
                 <label>
                   PARENTESCO:
                   <input
                     className="input-parentesco-dados-responsavel"
                     type="text"
-                    value={parentesco_responsavel || ''}
+                    value={parentesco_responsavel}
                     onChange={(event) => setParentesco_responsavel(event.target.value)}
                   />
                 </label>
-              </form>
-              <form className="form-novo-cadastro">
                 <label>
                   TELEFONE:
                   <InputMask
                     mask="(99) 99999-9999"
                     className="input-telefone-dados-responsavel"
                     type="text"
-                    value={telefone_responsavel || ''}
+                    value={telefone_responsavel}
                     onChange={(event) => setTelefone_responsavel(event.target.value)}
                   />
                 </label>
@@ -263,36 +272,36 @@ const EditarCadastro = () => {
                   <input
                     className="input-ocupacao-dados-responsavel"
                     type="text"
-                    value={ocupacao_responsavel || ''}
+                    value={ocupacao_responsavel}
                     onChange={(event) => setOcupacao_responsavel(event.target.value)}
                   />
                 </label>
-                <label>
-                  DATA DE NASCIMENTO:
-                  <input
-                    className="input-datanasc-dados-responsavel"
-                    type="date"
-                    value={formatarData(data_nascimento_responsavel) || ''}
-                    onChange={(event) => setData_nascimento_responsavel(event.target.value)}
-                  />
-                </label>
               </form>
-              <div className="form-novo-cadastro">
-                <label>
-                  IDADE:
-                  <input
-                    className="input-idade-dados-responsavel"
-                    type="text"
-                    readOnly
-                    value={age || ''}
-                  />
-                </label>
-              </div>
             </div>
+          </div>
+          <div className="containerModalCadastro">
+            <ModalAlterarCadastro
+              cpf={cpf}
+              id={id}
+              nome={nome}
+              rg={rg}
+              sus={sus}
+              data_nascimento={data_nascimento}
+              telefone={telefone}
+              sexo={selectsexo}
+              endereco={endereco}
+              numero={numero}
+              nome_responsavel={nome_responsavel}
+              cpf_responsavel={cpf_responsavel}
+              rg_responsavel={rg_responsavel}
+              parentesco_responsavel={parentesco_responsavel}
+              telefone_responsavel={telefone_responsavel}
+              ocupacao_responsavel={ocupacao_responsavel}
+              data_nascimento_responsavel={data_nascimento_responsavel}
+            />
           </div>
         </div>
       </div>
-      <BasicButtons />
     </div>
   );
 };
