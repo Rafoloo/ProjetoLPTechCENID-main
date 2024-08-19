@@ -1,22 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Transition } from "react-transition-group";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { sx } from "@mui/system";
 import "../styles/Modal.css";
 
-const animationDuration = 300;
 const autoCloseDelay = 3000; // Tempo em milissegundos para o modal fechar automaticamente
-
-const transitionStyles = {
-  entering: { opacity: 0 },
-  entered: { opacity: 1 },
-  exiting: { opacity: 0 },
-  exited: { display: "none" },
-};
 
 const style = {
   position: "absolute",
@@ -28,21 +18,6 @@ const style = {
   boxShadow: 10,
   p: 4,
   borderRadius: 6,
-};
-
-const closeButtonStyle = {
-  position: "absolute",
-  top: 8,
-  right: 8,
-  cursor: "pointer",
-  transition: "transform 0.3s",
-};
-
-const closeButtonHoverStyle = {
-  "&:hover": {
-    color: "red",
-    transform: "translateX(1px)",
-  },
 };
 
 export default function BasicButtons() {
@@ -86,27 +61,24 @@ export default function BasicButtons() {
           </div>
         </div>
       </Stack>
-      <Transition in={open} timeout={animationDuration}>
-        {(state) => (
-          <Modal
-            open={state === "entered"}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
+
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={style}>
+          <Typography
+            id="modal-modal-title"
+            variant="h6"
+            component="h2"
+            sx={{ textAlign: "center" }}
           >
-            <Box sx={{ ...style, ...transitionStyles[state] }}>
-              <Typography
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
-                sx={{ textAlign: "center" }}
-              >
-                Exame salvo com sucesso!
-              </Typography>
-            </Box>
-          </Modal>
-        )}
-      </Transition>
+            Exame salvo com sucesso!
+          </Typography>
+        </Box>
+      </Modal>
     </div>
   );
 }

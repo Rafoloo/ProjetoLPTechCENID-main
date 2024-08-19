@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { Link } from 'react-router-dom';
+
 import "../styles/EditarCadastro.css";
 import Navbar from "../components/Navbar";
 import ModalAlterarCadastro from "../components/ModalAlterarCadastro";
