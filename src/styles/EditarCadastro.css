@@ -17,6 +17,7 @@
     width: 8vw;
     margin-left: 0.5em;
     height: 1vw;
+    margin-bottom: 1px;
 }
 
 .input-cartaoSUS-editar-cadastro {
@@ -39,3 +40,54 @@
     margin-left: 0.5em;
     height: 1vw;
 }
+
+.select-sexo-novo-paciente1{
+    width: 15%;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.input-nome-dados-responsavel{
+    outline: none;
+    width: 11.6vw;
+    margin-left: 0.5em;
+    height: 1vw;
+}
+
+@media (max-width: 920px) {
+    .input-nome-editar-cadastro, 
+    .input-cpf-editar-cadastro, 
+    .input-rg-editar-cadastro, 
+    .input-cartaoSUS-editar-cadastro, 
+    .input-endereco-editar-cadastro, 
+    .input-numero-editar-cadastro,
+    .select-sexo-novo-paciente1 {
+      width: 100%;
+      margin-left: 0; 
+      height: auto; 
+    }
+    
+    .form-novo-cadastro {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-novo-cadastro {
+      flex-direction: column; 
+    }
+    
+    .input-nome-editar-cadastro, 
+    .input-cpf-editar-cadastro, 
+    .input-rg-editar-cadastro, 
+    .input-cartaoSUS-editar-cadastro, 
+    .input-endereco-editar-cadastro, 
+    .input-numero-editar-cadastro,
+    .select-sexo-novo-paciente1 {
+      width: 100%;
+      margin-left: 0;
+      height: auto;
+    }
+  }
+  
