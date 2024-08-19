@@ -300,6 +300,21 @@
     background-color: #0066AD;
 }
 
+#send-the-form2 {
+    padding: 0.6em 6em;
+    display: block;
+    cursor: pointer;  
+    border-radius: 12px;
+    border: none;
+    background-color: #0066AD;   
+}
+
+#send-the-form2:hover {
+    background-color: #0e426e;
+    outline: none;
+}
+
+
 @media only screen and (max-width: 1190px) {
 
     .PcheckMed {
