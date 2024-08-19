@@ -1,4 +1,3 @@
-import React, { useState, useEffect, useContext } from "react";
 import "../styles/EditarCadastro.css";
 import Navbar from "../components/Navbar";
 import ModalAlterarCadastro from "../components/ModalAlterarCadastro";
