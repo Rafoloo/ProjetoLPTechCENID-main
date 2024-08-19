@@ -1,5 +1,4 @@
 import React from "react";
-// import "../styles/NovoCadastro.css";
 import "../styles/EditarCadastro.css";
 import Navbar from "../components/Navbar";
 import ModalAlterarCadastro from "../components/ModalAlterarCadastro";
