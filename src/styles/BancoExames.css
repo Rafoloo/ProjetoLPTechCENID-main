@@ -1,63 +1,122 @@
-.lina-azul-banco-exames{
-    background-color: #0E426E;
+.lina-azul-banco-exames {
+    background-color: #0e426e;
     width: 100%;
     height: 1.5em;
     display: flex;
     justify-content: center;
     margin-top: 3em;
-}
-
-.informacoes-linha-azul{
+  }
+  
+  .informacoes-linha-azul {
     color: white;
     font-size: 20px;
-}
-
-.table-exame{
-    background-color:#D8E3E8;
-    width: 16.5em
-}
-
-.p-nome-paciente-banco-exames{
+  }
+  
+  .table-exame {
+    background-color: #d8e3e8;
+    width: 16.5em;
+  }
+  
+  .p-nome-paciente-banco-exames {
     margin-top: 3em;
     margin-left: 0.5em;
-}
-
-.p-infos-banco-exames{
+  }
+  
+  .p-infos-banco-exames {
     width: 50em;
-    background-color:white;
+    background-color: white;
     height: 1.5em;
     margin-top: 3em;
     margin-left: 0.5em;
     border-bottom: 1px solid gray;
-}
-
-.infos-banco-paciente{
+  }
+  
+  .infos-banco-paciente {
     display: flex;
-    justify-content:center;
-}
-
-.button-new-exame{
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os elementos se ajustem em várias linhas */
+  }
+  
+  .button-new-exame {
     display: flex;
     justify-content: center;
     margin-top: 18em;
-}
-
-.faixaAzul-certa1 {
+  }
+  
+  .faixaAzul-certa1 {
     display: flex;
     align-items: center;
-    background-color: #0E426E;
+    background-color: #0e426e;
     color: white;
-}
+    padding: 10px;
+  }
   
-.seta {
+  .seta {
     margin-right: 10px;
-}
+  }
   
-.div-text-exame {
+  .div-text-exame {
     flex-grow: 1;
     text-align: center;
-}
+  }
   
-.centralizando1 {
+  .centralizando1 {
     margin: 0;
-}
+  }
+  
+  /* Media Queries para responsividade */
+  
+  /* Ajustes para telas menores, como tablets (largura máxima de 768px) */
+  @media (max-width: 768px) {
+    .p-infos-banco-exames {
+      width: 100%; /* Ajusta a largura para 100% */
+      margin-left: 0;
+      margin-top: 1em;
+    }
+  
+    .button-new-exame {
+      margin-top: 5em;
+    }
+  
+    .table-exame {
+      width: 100%; /* Largura total para tabelas */
+    }
+  
+    .infos-banco-paciente {
+      flex-direction: column; /* Organiza informações em uma coluna */
+    }
+  
+    .p-nome-paciente-banco-exames,
+    .p-infos-banco-exames {
+      margin: 1em 0; /* Reduz margens para se ajustar melhor */
+    }
+  }
+  
+  /* Ajustes para telas de celular (largura máxima de 480px) */
+  @media (max-width: 480px) {
+    .table-exame {
+      font-size: 12px; /* Reduz o tamanho da fonte */
+    }
+  
+    .faixaAzul-certa1 {
+      padding: 5px; /* Reduz padding para economizar espaço */
+    }
+  
+    .button-new-exame {
+      margin-top: 2em;
+    }
+  
+    .centralizando1 {
+      font-size: 16px; /* Reduz o tamanho da fonte no título */
+    }
+  
+    .p-infos-banco-exames {
+      width: 100%;
+      font-size: 14px; /* Tamanho da fonte reduzido */
+    }
+  
+    .p-nome-paciente-banco-exames {
+      font-size: 14px;
+    }
+  }
+  
